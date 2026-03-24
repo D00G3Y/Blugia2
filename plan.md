@@ -67,6 +67,25 @@
 60. **"remove the sitemap links you just made and have a link to the xml sitemap at the bottom. maybe create a script that auto updates it every time we add a page"** — Replace visual sitemap with single link to sitemap.xml, auto-generate script from routes
 61. **"lets create a filter the submissions form so that it quietly doesnt submit anything if any mention of genitalia or vulgar words are in the string."** — Silent profanity filter on client + server side
 62. **"can you add all the prompts ive made today to plan.md"** — Update plan.md with all prompts
+63. **"if I gitignore the authentication database will that mean that it wont work on netlify?"** — Question about deployment with gitignored auth data
+64. **"I made an account with supabase how can I set that up for the authentication and feedback"** — Migrate auth system to Supabase for production deployment
+65. **"Lets keep the Express server for now and build a version that works with supabase"** — Keep Express as local fallback, add Supabase for production
+66. **"https://bbzwoswpiuulwmvvxnnh.supabase.co is the link. sb_publishable_... is the publishable key. is that what you needed"** — Provided Supabase credentials
+67. **"it said success no rows returned is that fine?"** — Confirmed SQL table creation was successful
+68. **"Email address 'blugia@blugia.local' is invalid"** — Supabase rejected .local domain, switched to @users.blugia.net
+69. **"did I do something wrong I thought I allowed it to not accept emails"** — Guidance to disable email confirmation in Supabase Auth settings
+70. **"can you add a second confirm password to the register field?"** — Added confirm password field to registration form
+71. **"how do I know that my account is stored on supabase"** — Check Supabase Dashboard → Authentication → Users
+72. **"perfect"** — Confirmed Supabase auth is working
+73. **"is there anything in the app that should be gitignored before I push to the web?"** — Reviewed gitignore, everything covered
+74. **"can you delete the user Blugia and their password on the express database?"** — Cleared local Express users.json
+75. **"if I am not using express server on live is it also gitignored?"** — No, server code is in repo but won't run on Netlify (no secrets in it)
+76. **"so with the supabase keys ignored it will run off netlify"** — Set VITE_SUPABASE_URL and VITE_SUPABASE_ANON_KEY in Netlify env vars
+77. **"i want to make these variables secret correct?"** — Anon key is designed to be public, secret setting optional
+78. **"so what exactly do I add to the variables portion do I need to add as a file"** — No file, just key-value pairs in Netlify dashboard
+79. **"how do I view the content feedback"** — Supabase Dashboard → Table Editor → feedback, or SQL Editor query
+80. **"can you add the image favicon as the favicon please"** — Replaced favicon.svg with favicon.png from assets
+81. **"add all the prompts ive made since the last one to the plan.md file"** — Update plan.md with all recent prompts
 
 ## Completed Work
 
