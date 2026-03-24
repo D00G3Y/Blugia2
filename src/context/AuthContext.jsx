@@ -29,24 +29,33 @@ export function AuthProvider({ children }) {
 
   useEffect(() => {
     const init = async () => {
-      const { data: { session } } = await supabase.auth.getSession()
-      if (session?.user) {
-        const u = buildUser(session)
-        u.bookmarks = await fetchBookmarks(session.user.id)
-        setUser(u)
+      try {
+        const { data: { session } } = await supabase.auth.getSession()
+        if (session?.user) {
+          const u = buildUser(session)
+          u.bookmarks = await fetchBookmarks(session.user.id)
+          setUser(u)
+        }
+      } catch (err) {
+        console.error('Auth init failed:', err)
+      } finally {
+        setLoading(false)
       }
-      setLoading(false)
     }
     init()
 
     const { data: { subscription } } = supabase.auth.onAuthStateChange(
       async (_event, session) => {
-        if (session?.user) {
-          const u = buildUser(session)
-          u.bookmarks = await fetchBookmarks(session.user.id)
-          setUser(u)
-        } else {
-          setUser(null)
+        try {
+          if (session?.user) {
+            const u = buildUser(session)
+            u.bookmarks = await fetchBookmarks(session.user.id)
+            setUser(u)
+          } else {
+            setUser(null)
+          }
+        } catch (err) {
+          console.error('Auth state change failed:', err)
         }
       }
     )

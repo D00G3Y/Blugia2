@@ -1,5 +1,5 @@
 import { useState, useMemo, useEffect } from 'react'
-import { BrowserRouter, Routes, Route, Link, useNavigate, useLocation } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Link, Navigate, useNavigate, useLocation } from 'react-router-dom'
 import './App.css'
 import Pokedex from './pages/Pokedex'
 import Submissions from './pages/Submissions'
@@ -281,6 +281,7 @@ function Layout() {
           <Route path="/fire-red/gifts-trades" element={<GiftsTrades />} />
           <Route path="/fire-red/pokedex" element={<Pokedex />} />
           <Route path="/fire-red/items" element={<Items />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
 
         {/* Desktop Right Panel */}
