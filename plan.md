@@ -117,3 +117,81 @@
 - XML sitemap with auto-generate script (npm run generate-sitemap)
 - Sitemap link in footer bar
 - data/users.json and data/feedback.json gitignored
+
+### Session 3 (2026-03-24)
+
+82. **"the login feature isnt showing up on live"** — Login not appearing on Netlify production site
+83. **"is env.local ignored and thats why its not picking up?"** — Diagnosed as Chrome cache issue
+84. **"clearing the cache on chrome fixed it but how do i prevent that in the future"** — Added _headers file for Netlify
+85. **"i use netlify"** — Created public/_headers
+86. **"can you create a redirect file to my public directory"** — Created public/_redirects for SPA routing
+87. **"lets edit the items ui schema so that each item has a different background color"** — Alternating silver/gold rows
+88. **"lets make the items.css global so that it will affect other games"** — Moved Items.css to src/styles/
+89. **"actually center all the fields except for effect and name"** — Centered all except name/effect
+90. **"can we create like a static button that appears when a user scrolls over 300vh"** — Back-to-top button
+91. **"change the scroll distance to 100vh"** — Trigger at 100vh
+92. **"on mobile view can we move the hamburger menus to the top section with the banner"** — Hamburgers in header
+93. **"On mobile have the buy and sell next to each other in the same row"** — Buy/sell side by side
+94. **"how intense would it be to design a forum right now"** — Forum assessment
+95. **"Medium forum"** — Medium scope chosen
+96. **"Public reading" / "Both"** — Public + game/general categories
+97. **"I only want users to be able to create 3 posts a month"** — Post rate limits
+98. **"I would also like to create a flag for verified users"** — Verified badges and roles
+99. **"lets have the button for the forum in the same section as submissions and pokedex"** — Forum nav placement
+100. **"lets remove the forum feature entirely"** — Removed forum
+101. **"hey remove the second hamburger menu on mobile please"** — Removed old navbar
+102. **"completely remove any mention or use of the forum"** — Clean removal confirmed
+103. **"something is happening with the authentication when we visit a page that doesnt exist"** — Auth debugging begins
+104. **"not just logged out but the login button goes away"** — Loading state stuck
+105. **"Is there a way to force it to load first and then load the page?"** — Loading spinner gate
+106. **"when I type blugia.net/a/ it goes into a loading screen that never stops"** — getSession() hanging
+107. **"Chat gpt said that this line of code is too aggressive"** — Refined to 401/403 only
+108. **"Please revert to the commit titled Hotfix Mobile Menus"** — Reverted to c00b292
+109. **"something is happening with the authentication when we visit a page that doesnt exist"** — Re-investigated
+110. **"is it possible that the site just loads too quickly"** — Timeout racing added
+111. **"okay my option for keys are: Publishable Key, Secret Key, Anon Public..."** — Wrong key identified
+112. **"This is the anon public key: eyJ..."** — Fixed .env.local
+113. **"this is the api URL just for checking purposes"** — URL confirmed
+114. **"so we visit the /a/ and the login button shows up but once we visit the login page..."** — UI unresponsive after login
+115. **"When I click on login nothing happens"** — Debug logging
+116. **"still on the login page"** — window.location workaround
+117. **"okay im logged in but havent tried going to /a/ yet"** — localStorage sync approach
+118. **"it looks like im logged out and login button is broken"** — All async calls hanging
+119. **"when i enter the console it returns []"** — Session not persisting
+120. **"yes when I log in a blugia.auth token is created"** — Explicit storage config fixed persistence
+121. **"going to /a/ redirected me back to the home page..."** — Auth persists, logout hangs
+122. **"I am able to log in but haven't gone to /a/ yet"** — Navigator Lock API root cause found
+123. **"going to /a/ redirected me back. Bookmarks visible, logout works."** — Everything working!
+124. **"So what is the users and the bookmarks stored locally now?"** — Data in Supabase, token in localStorage
+125. **"on mobile view lets add the bookmarks to the right info panel"** — Mobile bookmarks section
+126. **"Lets do the same thing for Navigation only on mobile"** — Navigation header
+127. **"clicking on a bookmark in mobile view doesnt pull the user to the item"** — Fixed mobile scroll
+128. **"please make the right panel bookmarks section only on mobile"** — Desktop hides bookmarks section
+129. **"make it so on mobile when you click a bookmark on items list you scroll down"** — Item popup modal on mobile
+130. **"Also please add the search function on mobile to the right panel"** — Search in mobile panel
+131. **"on mobile view have the magnifying glass just outside of the search input"** — Styled mobile search
+132. **"can you help me add my google analytics tag"** — Added GA4 G-GDWZ0ZV327
+133. **"I think that it for now just append all the prompts"** — This update
+
+## Completed Work — Session 3
+
+- Netlify _headers (cache-control) and _redirects (SPA routing)
+- Items table: alternating silver/gold rows, rounded borders, centered fields
+- Shared Items.css in src/styles/ for cross-game reuse
+- Back-to-top scroll button (100vh trigger)
+- Mobile hamburger menus moved into header/banner
+- Buy/sell side by side on mobile item cards
+- Forum feature built and removed (using Discord instead)
+- Catch-all route for 404s (redirects to /)
+- Auth error handling with try/catch/finally
+- Fixed wrong Supabase anon key (sb_publishable_ -> eyJ... JWT)
+- Fixed Navigator Lock API deadlock in Supabase auth-js v2.100.0
+- Synchronous session reading from localStorage on init
+- Explicit Supabase storage config (persistSession, storageKey, lock bypass)
+- Google Analytics GA4 (G-GDWZ0ZV327)
+- Mobile bookmarks section with header in right panel
+- Mobile navigation header
+- Search bar in mobile right panel
+- Item popup modal on mobile (matching Pokedex pattern)
+- Mobile-only bookmarks section (hidden on desktop)
+- Styled mobile search with magnifying glass icon

@@ -147,7 +147,19 @@ function Layout() {
 
   const navLinks = (
     <div className="panel-content">
+      <div className="mobile-search">
+        {searchBar}
+      </div>
+      {user && user.bookmarks.length > 0 && (
+        <div className="mobile-bookmarks">
+          <div className="game-section-header">Bookmarks</div>
+          {user.bookmarks.map(b => (
+            <div key={b.path} className="nav-block"><Link to={b.path} onClick={closeMenus}>{b.title}</Link></div>
+          ))}
+        </div>
+      )}
       <div className="mobile-nav-links">
+        <div className="game-section-header">Navigation</div>
         <div className="nav-block"><Link to="/submissions" onClick={closeMenus}>Submissions</Link></div>
         <div className="nav-block"><Link to="/pokedex" onClick={closeMenus}>Pokedex</Link></div>
         {!loading && (

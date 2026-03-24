@@ -409,6 +409,15 @@
   text-align: center;
 }
 
+/* Mobile-only sections */
+.mobile-bookmarks {
+  display: none;
+}
+
+.mobile-search {
+  display: none;
+}
+
 /* Nav Blocks */
 .nav-block a {
   display: block;
@@ -625,6 +634,41 @@
   .mobile-nav-links {
     display: block;
     margin-bottom: 4px;
+  }
+
+  .mobile-bookmarks {
+    display: block;
+  }
+
+  .mobile-search {
+    display: block;
+  }
+
+  .mobile-search .search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #2f39b5;
+    border: 1px solid grey;
+  }
+
+  .mobile-search .search-icon {
+    padding: 0 0 0 12px;
+    font-size: 0.9rem;
+    pointer-events: none;
+    flex-shrink: 0;
+  }
+
+  .mobile-search .search-bar input {
+    flex: 1;
+    background-color: transparent;
+    color: white;
+    padding: 12px 12px 12px 8px;
+    border: none;
+    border-radius: 0;
+  }
+
+  .mobile-search .search-bar input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
   }
 
   .navbar {

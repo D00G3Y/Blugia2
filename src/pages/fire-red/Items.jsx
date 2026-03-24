@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import itemsData from '../../data/items.json'
 import '../../styles/Items.css'
@@ -7,18 +7,50 @@ function Items() {
   const { items } = itemsData
   const [searchParams] = useSearchParams()
   const selectedId = searchParams.get('item')
+  const [selectedItem, setSelectedItem] = useState(null)
 
+  // Desktop: scroll to item. Mobile: open popup.
   useEffect(() => {
     if (selectedId) {
-      const el = document.getElementById(`item-${selectedId}`)
-      if (el) {
-        el.scrollIntoView({ behavior: 'smooth', block: 'center' })
-        el.classList.add('item-highlight')
-        const timer = setTimeout(() => el.classList.remove('item-highlight'), 2000)
-        return () => clearTimeout(timer)
+      const item = items.find(i => String(i.id) === selectedId)
+      if (item) {
+        // Check if mobile
+        const isMobile = window.innerWidth <= 768
+        if (isMobile) {
+          setSelectedItem(item)
+        } else {
+          const el = document.getElementById(`item-${selectedId}`)
+          if (el) {
+            el.scrollIntoView({ behavior: 'smooth', block: 'center' })
+            el.classList.add('item-highlight')
+            const timer = setTimeout(() => el.classList.remove('item-highlight'), 2000)
+            return () => clearTimeout(timer)
+          }
+        }
       }
     }
-  }, [selectedId])
+  }, [selectedId, items])
+
+  const itemDetail = (item) => (
+    <>
+      <div className="item-modal-header">
+        {item.sprite && <img src={item.sprite} alt={item.name} className="item-modal-sprite" />}
+        <h3>{item.name}</h3>
+      </div>
+      <div className="item-modal-row">
+        <span className="item-label">Buy:</span> {item.buy_price > 0 ? `¥${item.buy_price.toLocaleString()}` : '?'}
+      </div>
+      <div className="item-modal-row">
+        <span className="item-label">Sell:</span> {item.sell_price > 0 ? `¥${item.sell_price.toLocaleString()}` : '?'}
+      </div>
+      <div className="item-modal-row">
+        <span className="item-label">Effect:</span> {item.effect}
+      </div>
+      <div className="item-modal-row">
+        <span className="item-label">Location:</span> {item.location}
+      </div>
+    </>
+  )
 
   return (
     <div className="page-container items-page">
@@ -58,7 +90,7 @@ function Items() {
       {/* Mobile cards */}
       <div className="items-cards">
         {items.map(item => (
-          <div key={item.id} id={`item-mobile-${item.id}`} className="item-card">
+          <div key={item.id} id={`item-mobile-${item.id}`} className="item-card" onClick={() => setSelectedItem(item)}>
             <div className="item-card-image">
               {item.sprite && <img src={item.sprite} alt={item.name} />}
             </div>
@@ -82,6 +114,16 @@ function Items() {
           </div>
         ))}
       </div>
+
+      {/* Mobile item popup */}
+      {selectedItem && (
+        <div className="item-modal-overlay" onClick={() => setSelectedItem(null)}>
+          <div className="item-modal" onClick={(e) => e.stopPropagation()}>
+            <button className="item-modal-close" onClick={() => setSelectedItem(null)}>✕</button>
+            {itemDetail(selectedItem)}
+          </div>
+        </div>
+      )}
     </div>
   )
 }
