@@ -3,9 +3,12 @@ import { useSearchParams } from 'react-router-dom'
 import pokemonData from '../data/pokemon.json'
 import './Pokedex.css'
 
+const ALL_TYPES = [...new Set(pokemonData.pokemon.flatMap(p => p.types).filter(Boolean))].sort()
+
 function Pokedex() {
   const [selected, setSelected] = useState(null)
   const [showShiny, setShowShiny] = useState(false)
+  const [typeFilter, setTypeFilter] = useState('')
   const [searchParams] = useSearchParams()
 
   useEffect(() => {
@@ -88,14 +91,36 @@ function Pokedex() {
     </>
   )
 
+  const filteredPokemon = typeFilter
+    ? pokemonData.pokemon.filter(p => p.types.includes(typeFilter))
+    : pokemonData.pokemon
+
   return (
     <div className="pokedex-page">
       <h2>Pokedex</h2>
 
+      <div className="pokedex-type-filter">
+        <button
+          className={`type-filter-btn ${typeFilter === '' ? 'active' : ''}`}
+          onClick={() => setTypeFilter('')}
+        >
+          All
+        </button>
+        {ALL_TYPES.map(type => (
+          <button
+            key={type}
+            className={`type-filter-btn type-${type.toLowerCase()} ${typeFilter === type ? 'active' : ''}`}
+            onClick={() => setTypeFilter(type)}
+          >
+            {type}
+          </button>
+        ))}
+      </div>
+
       <div className="pokedex-layout">
         {/* Pokemon Grid */}
         <div className="pokedex-grid">
-          {pokemonData.pokemon.map(p => (
+          {filteredPokemon.map(p => (
             <button
               key={p.id}
               id={`pokemon-${p.id}`}
