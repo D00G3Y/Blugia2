@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import itemsData from '../../data/items.json'
-import './Items.css'
+import '../../styles/Items.css'
 
 function Items() {
   const { items } = itemsData
@@ -64,11 +64,13 @@ function Items() {
             </div>
             <div className="item-card-info">
               <div className="item-card-name">{item.name}</div>
-              <div className="item-card-row">
-                <span className="item-label">Buy:</span> {item.buy_price > 0 ? `¥${item.buy_price.toLocaleString()}` : '?'}
-              </div>
-              <div className="item-card-row">
-                <span className="item-label">Sell:</span> {item.sell_price > 0 ? `¥${item.sell_price.toLocaleString()}` : '?'}
+              <div className="item-card-price-row">
+                <div className="item-card-row">
+                  <span className="item-label">Buy:</span> {item.buy_price > 0 ? `¥${item.buy_price.toLocaleString()}` : '?'}
+                </div>
+                <div className="item-card-row">
+                  <span className="item-label">Sell:</span> {item.sell_price > 0 ? `¥${item.sell_price.toLocaleString()}` : '?'}
+                </div>
               </div>
               <div className="item-card-row">
                 <span className="item-label">Effect:</span> {item.effect}

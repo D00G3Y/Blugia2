@@ -14,6 +14,9 @@ I noticed that yes long prompts get worse results but I used plan feature extens
 ### 5. Final Product. (Session 2, near the end)
 I am very happy with how it looks as a final product. I got more done building the app than I ever have trying to learn Vue3. Claude made everything simple. But I noticed that even if I didnt have a background in web development I dont think I would be able to figure out any changes manually. So Im expecting a bit of some job security until the next update (thats a joke).
 
+### 6. Glitch Hunting. (Session 2, near the end)
+I encountered an error from not having a redirect set up. I usually host static sites instead of apps so that was something I overlooked. My browser was staling the auth token from supabase whenever it would hit a 404. This was frustrating but at the time I also didnt have any tokens to help troubleshoot it. I had to look it up myself try my own testing. I checked the console and found out it was a cache problem. I thought it had been one of my chrome plugins, but after testing the site in firefox I knew it wasn't the plugins. Thankfully I remembered the problem I used to have when running Nuxt3 as an app and patched it. But I realized I was being too dependent on AI agents.
+
 ## Prompt Log
 
 1. **"can you look at other websites for reference"** — Asked to look at reference sites for recreating blugia.net

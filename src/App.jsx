@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useEffect } from 'react'
 import { BrowserRouter, Routes, Route, Link, useNavigate, useLocation } from 'react-router-dom'
 import './App.css'
 import Pokedex from './pages/Pokedex'
@@ -26,6 +26,15 @@ function Layout() {
   const location = useLocation()
   const isFireRed = location.pathname.startsWith('/fire-red')
   const { user, loading, logout } = useAuth()
+  const [showBackToTop, setShowBackToTop] = useState(false)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setShowBackToTop(window.scrollY > window.innerHeight)
+    }
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
 
   const handleLogout = () => {
     if (window.confirm('Are you sure you want to logout?')) {
@@ -170,9 +179,23 @@ function Layout() {
     <>
       {/* Header */}
       <header className="header">
+        <button
+          className="header-menu-toggle header-menu-left"
+          onClick={() => setLeftMenuOpen(!leftMenuOpen)}
+          aria-label="Open game categories menu"
+        >
+          ☰
+        </button>
         <Link to="/">
           <img src={Banner} alt="Blugia" className="header-banner" />
         </Link>
+        <button
+          className="header-menu-toggle header-menu-right"
+          onClick={() => setRightMenuOpen(!rightMenuOpen)}
+          aria-label="Open navigation menu"
+        >
+          ☰
+        </button>
       </header>
 
       {/* Desktop Nav Bar */}
@@ -298,6 +321,16 @@ function Layout() {
       <div className="sitemap-bar">
         <a href="/sitemap.xml">Sitemap</a>
       </div>
+
+      {showBackToTop && (
+        <button
+          className="back-to-top"
+          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+          aria-label="Back to top"
+        >
+          ▲
+        </button>
+      )}
     </>
   )
 }
