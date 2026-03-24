@@ -130,6 +130,11 @@ function Pokedex() {
               <img src={p.images.default} alt={p.name} />
               <span className="pokedex-card-number">#{String(p.id).padStart(3, '0')}</span>
               <span className="pokedex-card-name">{p.name}</span>
+              <div className="pokedex-card-types">
+                {p.types.filter(Boolean).map(t => (
+                  <span key={t} className={`pokedex-type-badge type-${t.toLowerCase()}`}>{t}</span>
+                ))}
+              </div>
             </button>
           ))}
         </div>
