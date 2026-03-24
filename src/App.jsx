@@ -15,7 +15,6 @@ import { fuzzySearch } from './utils/fuzzySearch'
 import { AuthProvider, useAuth } from './context/AuthContext'
 import Banner from './assets/Banner.png'
 import fbIcon from './assets/Socials/fb.png'
-import twIcon from './assets/Socials/tw.png'
 
 function Layout() {
   const [leftMenuOpen, setLeftMenuOpen] = useState(false)
@@ -225,9 +224,8 @@ function Layout() {
           </div>
         )}
         <div className="main-nav-right">
-          <a href="#"><img src={fbIcon} alt="Facebook" className="social-icon" /></a>
-          <a href="#"><img src={twIcon} alt="Twitter" className="social-icon" /></a>
-          {!loading && (
+          <a href="https://www.facebook.com/profile.php?id=100093933580461" target="_blank" rel="noopener noreferrer"><img src={fbIcon} alt="Facebook" className="social-icon" /></a>
+                    {!loading && (
             user ? (
               <>
                 <Link to="/profile" className="profile-icon" title="My Profile">
@@ -279,7 +277,7 @@ function Layout() {
               <p className="subtitle">
                 Currently under construction but growing soon! Calling all casual gamers to expand the wiki catalog.
               </p>
-              <a href="#" className="cta">
+              <a href="https://discord.gg/m9XtH5T7Yw" target="_blank" rel="noopener noreferrer" className="cta">
                 Join our Discord
               </a>
             </main>
@@ -308,9 +306,8 @@ function Layout() {
           Developed by <a href="#">Noah J. Houser</a>
         </p>
         <div className="social-links">
-          <a href="#"><img src={fbIcon} alt="Facebook" className="social-icon" /></a>
-          <a href="#"><img src={twIcon} alt="Twitter" className="social-icon" /></a>
-        </div>
+          <a href="https://www.facebook.com/profile.php?id=100093933580461" target="_blank" rel="noopener noreferrer"><img src={fbIcon} alt="Facebook" className="social-icon" /></a>
+                  </div>
       </footer>
 
       {/* Sitemap link */}

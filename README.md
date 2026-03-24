@@ -7,15 +7,15 @@ So lets talk about the features of this app and what our intentions and goals ar
 
 - The first feature of the site is to have a pokedex database that will be stored localy via json, and displayed to each pokemon game based on whats included. Users will be able to search for said pokemon. in a search bar on the site. X
 
-- The second feature is to create a user login database that will be stored locally or through a cloud service X X
+- The second feature is to create a user login database that will be stored locally or through a cloud service  X
     - Create a feature that lets users bookmark up to five links for quick access. X
 
 - The third feature is to create a contribution button that requires a user to be logged in to donate issues that they have in the romhacks they are playing so I can triage issues in games and spend time solving problems. X
 
 
-- The fourth feature of the webapp is to create an item guide, listing items in a seperate locally stored database and plug and chug the information on items, the game mechanics behind them, and a blank property that will be updated on where to find said item for each game.
+- The fourth feature of the webapp is to create an item guide, listing items in a seperate locally stored database and plug and chug the information on items, the game mechanics behind them, and a blank property that will be updated on where to find said item for each game. X
 
-- Create a forum for users to also post and talk about the games
+- Create a forum for users to also post and talk about the games "We did that it was really slow"
 
 Production:
 
