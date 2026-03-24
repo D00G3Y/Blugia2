@@ -232,23 +232,6 @@ function Layout() {
         </div>
       </nav>
 
-      {/* Navbar (mobile toggles only) */}
-      <nav className="navbar">
-        <button
-          className="menu-toggle menu-toggle-left"
-          onClick={() => setLeftMenuOpen(!leftMenuOpen)}
-          aria-label="Open game categories menu"
-        >
-          ☰
-        </button>
-        <button
-          className="menu-toggle menu-toggle-right"
-          onClick={() => setRightMenuOpen(!rightMenuOpen)}
-          aria-label="Open navigation menu"
-        >
-          ☰
-        </button>
-      </nav>
 
       {/* Overlay (mobile only) */}
       {(leftMenuOpen || rightMenuOpen) && (
