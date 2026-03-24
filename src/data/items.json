@@ -1,0 +1,3074 @@
+{
+  "items": [
+    {
+      "id": 528,
+      "name": "Acro Bike",
+      "category": "Gameplay",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "More maneuverable than the Mach Bike, and allows hopping along rails.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/acro-bike.png"
+    },
+    {
+      "id": 139,
+      "name": "Aguav Berry",
+      "category": "Picky Healing",
+      "buy_price": 80,
+      "sell_price": 40,
+      "effect": "Held: Consumed at 1/2 max HP to restore 1/8 max HP. Confuses Pokémon that dislike bitter flavor.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/aguav-berry.png"
+    },
+    {
+      "id": 200,
+      "name": "Amulet Coin",
+      "category": "Training",
+      "buy_price": 10000,
+      "sell_price": 5000,
+      "effect": "Held: Doubles the money earned from a battle. Does not stack with Luck Incense.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/amulet-coin.png"
+    },
+    {
+      "id": 18,
+      "name": "Antidote",
+      "category": "Status Cures",
+      "buy_price": 200,
+      "sell_price": 100,
+      "effect": "Cures poison.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/antidote.png"
+    },
+    {
+      "id": 182,
+      "name": "Apicot Berry",
+      "category": "In A Pinch",
+      "buy_price": 80,
+      "sell_price": 40,
+      "effect": "Held: Consumed at 1/4 max HP to boost Special Defense.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/apicot-berry.png"
+    },
+    {
+      "id": 130,
+      "name": "Aspear Berry",
+      "category": "Medicine",
+      "buy_price": 80,
+      "sell_price": 40,
+      "effect": "Held: Consumed when frozen to cure frozen.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/aspear-berry.png"
+    },
+    {
+      "id": 557,
+      "name": "AuroraTicket",
+      "category": "Event Items",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Allows access to Birth Island and Deoxys.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/auroraticket.png"
+    },
+    {
+      "id": 21,
+      "name": "Awakening",
+      "category": "Status Cures",
+      "buy_price": 200,
+      "sell_price": 100,
+      "effect": "Cures sleep.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/awakening.png"
+    },
+    {
+      "id": 476,
+      "name": "Basement Key",
+      "category": "Plot Advancement",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "HS: Key to the tunnel under Goldenrod City. Gen III: Key to New Mauville.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/basement-key.png"
+    },
+    {
+      "id": 521,
+      "name": "Bead Mail",
+      "category": "All Mail",
+      "buy_price": 50,
+      "sell_price": 25,
+      "effect": "Lets a Trainer write a message and send it via Pokémon trade.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/bead-mail.png"
+    },
+    {
+      "id": 160,
+      "name": "Belue Berry",
+      "category": "Baking Only",
+      "buy_price": 20,
+      "sell_price": 10,
+      "effect": "Used for creating PokéBlocks and Poffins.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/belue-berry.png"
+    },
+    {
+      "id": 43,
+      "name": "Berry Juice",
+      "category": "Healing",
+      "buy_price": 200,
+      "sell_price": 100,
+      "effect": "Restores 20 HP.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/berry-juice.png"
+    },
+    {
+      "id": 551,
+      "name": "Berry Pouch",
+      "category": "Gameplay",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Holds berries.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/berry-pouch.png"
+    },
+    {
+      "id": 427,
+      "name": "Bicycle",
+      "category": "Gameplay",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Use for fast transit.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/bicycle.png"
+    },
+    {
+      "id": 87,
+      "name": "Big Mushroom",
+      "category": "Loot",
+      "buy_price": 5000,
+      "sell_price": 2500,
+      "effect": "Fire Red and Leaf Green: Trade for prior Level-up moves. Sell for 2500 Pokédollars, or to Hungry Maid for 5000 Pokédollars.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/big-mushroom.png"
+    },
+    {
+      "id": 89,
+      "name": "Big Pearl",
+      "category": "Loot",
+      "buy_price": 8000,
+      "sell_price": 4000,
+      "effect": "Sell for 3750 Pokédollars, or to Ore Collector for 7500 Pokédollars.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/big-pearl.png"
+    },
+    {
+      "id": 545,
+      "name": "Bike Voucher",
+      "category": "Plot Advancement",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Trade in Cerulean bike shop for a Bicycle.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/bike-voucher.png"
+    },
+    {
+      "id": 218,
+      "name": "Black Belt",
+      "category": "Type Enhancement",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Held: Fighting-Type moves from holder do 20% more damage.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/black-belt.png"
+    },
+    {
+      "id": 68,
+      "name": "Black Flute",
+      "category": "Spelunking",
+      "buy_price": 20,
+      "sell_price": 10,
+      "effect": "Halves the wild Pokémon encounter rate.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/black-flute.png"
+    },
+    {
+      "id": 217,
+      "name": "Black Glasses",
+      "category": "Type Enhancement",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Held: Dark-Type moves from holder do 20% more damage.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/black-glasses.png"
+    },
+    {
+      "id": 65,
+      "name": "Blue Flute",
+      "category": "Flutes",
+      "buy_price": 20,
+      "sell_price": 10,
+      "effect": "Cures sleep.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/blue-flute.png"
+    },
+    {
+      "id": 468,
+      "name": "Blue Orb",
+      "category": "Plot Advancement",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Summons Kyogre to the Embedded Tower.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/blue-orb.png"
+    },
+    {
+      "id": 238,
+      "name": "Blue Scarf",
+      "category": "Scarves",
+      "buy_price": 100,
+      "sell_price": 50,
+      "effect": "Raises the holder’s Beauty while in a contest.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/blue-scarf.png"
+    },
+    {
+      "id": 73,
+      "name": "Blue Shard",
+      "category": "Collectibles",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "No effect. Can be traded for items or moves.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/blue-shard.png"
+    },
+    {
+      "id": 142,
+      "name": "Bluk Berry",
+      "category": "Baking Only",
+      "buy_price": 20,
+      "sell_price": 10,
+      "effect": "Used for creating PokéBlocks and Poffins.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/bluk-berry.png"
+    },
+    {
+      "id": 190,
+      "name": "Bright Powder",
+      "category": "Held Items",
+      "buy_price": 4000,
+      "sell_price": 2000,
+      "effect": "Held: Increases the holder’s evasion by 1/9 (11 1/9%).",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/bright-powder.png"
+    },
+    {
+      "id": 19,
+      "name": "Burn Heal",
+      "category": "Status Cures",
+      "buy_price": 200,
+      "sell_price": 100,
+      "effect": "Cures a burn.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/burn-heal.png"
+    },
+    {
+      "id": 49,
+      "name": "Calcium",
+      "category": "Vitamins",
+      "buy_price": 10000,
+      "sell_price": 5000,
+      "effect": "Raises Special Attack effort and happiness.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/calcium.png"
+    },
+    {
+      "id": 48,
+      "name": "Carbos",
+      "category": "Vitamins",
+      "buy_price": 10000,
+      "sell_price": 5000,
+      "effect": "Raises Speed effort and happiness.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/carbos.png"
+    },
+    {
+      "id": 475,
+      "name": "Card Key",
+      "category": "Plot Advancement",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "HS: Opens doors in the Radio Tower. Gen III: Unlocks Silph Co Doors.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/card-key.png"
+    },
+    {
+      "id": 226,
+      "name": "Charcoal",
+      "category": "Type Enhancement",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Held: Fire-Type moves from holder do 20% more damage.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/charcoal.png"
+    },
+    {
+      "id": 126,
+      "name": "Cheri Berry",
+      "category": "Medicine",
+      "buy_price": 80,
+      "sell_price": 40,
+      "effect": "Held: Consumed when paralyzed to cure paralysis.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/cheri-berry.png"
+    },
+    {
+      "id": 127,
+      "name": "Chesto Berry",
+      "category": "Medicine",
+      "buy_price": 80,
+      "sell_price": 40,
+      "effect": "Held: Consumed when asleep to cure sleep.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chesto-berry.png"
+    },
+    {
+      "id": 197,
+      "name": "Choice Band",
+      "category": "Choice",
+      "buy_price": 4000,
+      "sell_price": 2000,
+      "effect": "Held: Increases Attack by 50%, but restricts the holder to only one move.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/choice-band.png"
+    },
+    {
+      "id": 100,
+      "name": "Claw Fossil",
+      "category": "Dex Completion",
+      "buy_price": 7000,
+      "sell_price": 3500,
+      "effect": "Can be revived into an Anorith.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/claw-fossil.png"
+    },
+    {
+      "id": 201,
+      "name": "Cleanse Tag",
+      "category": "Training",
+      "buy_price": 5000,
+      "sell_price": 2500,
+      "effect": "Prevents wild encounters of level lower than your party’s lead Pokémon.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/cleanse-tag.png"
+    },
+    {
+      "id": 421,
+      "name": "Coin Case",
+      "category": "Gameplay",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Holds coins for the Game Corner.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/coin-case.png"
+    },
+    {
+      "id": 434,
+      "name": "Contest Pass",
+      "category": "Gameplay",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Allows participation in Pokémon Contests.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/contest-pass.png"
+    },
+    {
+      "id": 152,
+      "name": "Cornn Berry",
+      "category": "Baking Only",
+      "buy_price": 20,
+      "sell_price": 10,
+      "effect": "Used for creating PokéBlocks and Poffins.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/cornn-berry.png"
+    },
+    {
+      "id": 204,
+      "name": "Deep Sea Scale",
+      "category": "Species Specific",
+      "buy_price": 2000,
+      "sell_price": 1000,
+      "effect": "Doubles Clamperl’s Special Defense. Traded on a Clamperl: Holder evolves into Gorebyss.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/deep-sea-scale.png"
+    },
+    {
+      "id": 203,
+      "name": "Deep Sea Tooth",
+      "category": "Species Specific",
+      "buy_price": 2000,
+      "sell_price": 1000,
+      "effect": "Doubles Clamperl’s Special Attack. Traded on a Clamperl: Holder evolves into Huntail.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/deep-sea-tooth.png"
+    },
+    {
+      "id": 530,
+      "name": "Devon Goods",
+      "category": "Plot Advancement",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Contains mechanical parts to be delivered to Captain Stern.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/devon-goods.png"
+    },
+    {
+      "id": 542,
+      "name": "Devon Scope",
+      "category": "Gameplay",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Allows spotting of invisible Kecleon.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/devon-scope.png"
+    },
+    {
+      "id": 56,
+      "name": "Dire Hit",
+      "category": "Stat Boosts",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Increases the chance of a critical hit in battle.  Raises happiness.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dire-hit.png"
+    },
+    {
+      "id": 7,
+      "name": "Dive Ball",
+      "category": "Special Balls",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Tries to catch a wild Pokémon. Success rate is 3.5× when underwater, fishing, or surfing.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dive-ball.png"
+    },
+    {
+      "id": 102,
+      "name": "Dome Fossil",
+      "category": "Dex Completion",
+      "buy_price": 7000,
+      "sell_price": 3500,
+      "effect": "Can be revived into a Kabuto.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dome-fossil.png"
+    },
+    {
+      "id": 465,
+      "name": "Dowsing Machine",
+      "category": "Gameplay",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Use to find hidden items on the field. AKA Itemfinder.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dowsing-machine.png"
+    },
+    {
+      "id": 227,
+      "name": "Dragon Fang",
+      "category": "Type Enhancement",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Held: Dragon-Type moves from holder do 20% more damage.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dragon-fang.png"
+    },
+    {
+      "id": 212,
+      "name": "Dragon Scale",
+      "category": "Evolution",
+      "buy_price": 2000,
+      "sell_price": 1000,
+      "effect": "Traded on a Seadra: Holder evolves into Kingdra.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dragon-scale.png"
+    },
+    {
+      "id": 524,
+      "name": "Dream Mail",
+      "category": "All Mail",
+      "buy_price": 50,
+      "sell_price": 25,
+      "effect": "Lets a Trainer write a message and send it via Pokémon trade.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dream-mail.png"
+    },
+    {
+      "id": 159,
+      "name": "Durin Berry",
+      "category": "Baking Only",
+      "buy_price": 20,
+      "sell_price": 10,
+      "effect": "Used for creating PokéBlocks and Poffins.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/durin-berry.png"
+    },
+    {
+      "id": 40,
+      "name": "Elixir",
+      "category": "Pp Recovery",
+      "buy_price": 3000,
+      "sell_price": 1500,
+      "effect": "Restores 10 PP for each move.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/elixir.png"
+    },
+    {
+      "id": 34,
+      "name": "Energy Powder",
+      "category": "Healing",
+      "buy_price": 500,
+      "sell_price": 250,
+      "effect": "Restores 50 HP, but lowers happiness.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/energy-powder.png"
+    },
+    {
+      "id": 35,
+      "name": "Energy Root",
+      "category": "Healing",
+      "buy_price": 1200,
+      "sell_price": 600,
+      "effect": "Restores 200 HP, but lowers happiness.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/energy-root.png"
+    },
+    {
+      "id": 185,
+      "name": "Enigma Berry",
+      "category": "Other",
+      "buy_price": 80,
+      "sell_price": 40,
+      "effect": "Held: Consumed when struck by a super-effective attack to restore 1/4 max HP.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/enigma-berry.png"
+    },
+    {
+      "id": 534,
+      "name": "Eon Ticket",
+      "category": "Event Items",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Provides access to Southern Island and Latias or Latios.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/eon-ticket.png"
+    },
+    {
+      "id": 78,
+      "name": "Escape Rope",
+      "category": "Spelunking",
+      "buy_price": 300,
+      "sell_price": 150,
+      "effect": "Transports user to the outside entrance of a cave.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/escape-rope.png"
+    },
+    {
+      "id": 38,
+      "name": "Ether",
+      "category": "Pp Recovery",
+      "buy_price": 1200,
+      "sell_price": 600,
+      "effect": "Restores 10 PP for one move.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ether.png"
+    },
+    {
+      "id": 206,
+      "name": "Everstone",
+      "category": "Training",
+      "buy_price": 3000,
+      "sell_price": 1500,
+      "effect": "Held: Prevents level-based evolution from occuring.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/everstone.png"
+    },
+    {
+      "id": 193,
+      "name": "Exp. Share",
+      "category": "Training",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Held: Half the experience from a battle is split between Pokémon holding this item.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/exp-share.png"
+    },
+    {
+      "id": 525,
+      "name": "Fab Mail",
+      "category": "All Mail",
+      "buy_price": 50,
+      "sell_price": 25,
+      "effect": "Lets a Trainer write a message and send it via Pokémon trade.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/fab-mail.png"
+    },
+    {
+      "id": 549,
+      "name": "Fame Checker",
+      "category": "Gameplay",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Records information about NPCs.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/fame-checker.png"
+    },
+    {
+      "id": 136,
+      "name": "Figy Berry",
+      "category": "Picky Healing",
+      "buy_price": 80,
+      "sell_price": 40,
+      "effect": "Held: Consumed at 1/2 max HP to restore 1/8 max HP. Confuses Pokémon that dislike spicy flavor.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/figy-berry.png"
+    },
+    {
+      "id": 82,
+      "name": "Fire Stone",
+      "category": "Evolution",
+      "buy_price": 3000,
+      "sell_price": 1500,
+      "effect": "Evolves an Eevee into Flareon, a Growlithe into Arcanine, a Pansear into Simisear, or a Vulpix into Ninetales.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/fire-stone.png"
+    },
+    {
+      "id": 64,
+      "name": "Fluffy Tail",
+      "category": "Spelunking",
+      "buy_price": 100,
+      "sell_price": 50,
+      "effect": "Ends a wild battle.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/fluffy-tail.png"
+    },
+    {
+      "id": 207,
+      "name": "Focus Band",
+      "category": "Held Items",
+      "buy_price": 4000,
+      "sell_price": 2000,
+      "effect": "Held: Holder has 10% chance to survive attacks or self-inflicted damage at 1 HP.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/focus-band.png"
+    },
+    {
+      "id": 30,
+      "name": "Fresh Water",
+      "category": "Healing",
+      "buy_price": 200,
+      "sell_price": 100,
+      "effect": "Restores 50 HP.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/fresh-water.png"
+    },
+    {
+      "id": 27,
+      "name": "Full Heal",
+      "category": "Status Cures",
+      "buy_price": 400,
+      "sell_price": 200,
+      "effect": "Cures any status ailment and confusion.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/full-heal.png"
+    },
+    {
+      "id": 23,
+      "name": "Full Restore",
+      "category": "Healing",
+      "buy_price": 3000,
+      "sell_price": 1500,
+      "effect": "Restores HP to full and cures any status ailment and confusion.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/full-restore.png"
+    },
+    {
+      "id": 179,
+      "name": "Ganlon Berry",
+      "category": "In A Pinch",
+      "buy_price": 80,
+      "sell_price": 40,
+      "effect": "Held: Consumed at 1/4 max HP to boost Defense.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ganlon-berry.png"
+    },
+    {
+      "id": 517,
+      "name": "Glitter Mail",
+      "category": "All Mail",
+      "buy_price": 50,
+      "sell_price": 25,
+      "effect": "Lets a Trainer write a message and send it via Pokémon trade.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/glitter-mail.png"
+    },
+    {
+      "id": 536,
+      "name": "Go-Goggles",
+      "category": "Gameplay",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Allows passage through windy deserts.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/go-goggles.png"
+    },
+    {
+      "id": 546,
+      "name": "Gold Teeth",
+      "category": "Plot Advancement",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "The Safari Zone Warden’s dentures. Trade for HM04 (Strength).",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/gold-teeth.png"
+    },
+    {
+      "id": 423,
+      "name": "Good Rod",
+      "category": "Gameplay",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Used to catch Pokémon in bodies of water.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/good-rod.png"
+    },
+    {
+      "id": 3,
+      "name": "Great Ball",
+      "category": "Standard Balls",
+      "buy_price": 600,
+      "sell_price": 300,
+      "effect": "Tries to catch a wild Pokémon.  Success rate is 1.5×.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/great-ball.png"
+    },
+    {
+      "id": 240,
+      "name": "Green Scarf",
+      "category": "Scarves",
+      "buy_price": 100,
+      "sell_price": 50,
+      "effect": "Raises the holder’s Smartness while in a contest.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/green-scarf.png"
+    },
+    {
+      "id": 75,
+      "name": "Green Shard",
+      "category": "Collectibles",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "No effect. Can be traded for items or moves.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/green-shard.png"
+    },
+    {
+      "id": 150,
+      "name": "Grepa Berry",
+      "category": "Effort Drop",
+      "buy_price": 80,
+      "sell_price": 40,
+      "effect": "Drops Special Defense Effort Values by 10 and raises happiness.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/grepa-berry.png"
+    },
+    {
+      "id": 55,
+      "name": "Guard Spec.",
+      "category": "Stat Boosts",
+      "buy_price": 1500,
+      "sell_price": 750,
+      "effect": "Prevents stat changes in battle for five turns in battle.  Raises happiness.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/guard-spec.png"
+    },
+    {
+      "id": 516,
+      "name": "Harbor Mail",
+      "category": "All Mail",
+      "buy_price": 50,
+      "sell_price": 25,
+      "effect": "Lets a Trainer write a message and send it via Pokémon trade.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/harbor-mail.png"
+    },
+    {
+      "id": 215,
+      "name": "Hard Stone",
+      "category": "Type Enhancement",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Held: Rock-Type moves from holder do 20% more damage.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hard-stone.png"
+    },
+    {
+      "id": 36,
+      "name": "Heal Powder",
+      "category": "Status Cures",
+      "buy_price": 300,
+      "sell_price": 150,
+      "effect": "Cures any status ailment, but lowers happiness.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/heal-powder.png"
+    },
+    {
+      "id": 93,
+      "name": "Heart Scale",
+      "category": "Collectibles",
+      "buy_price": 100,
+      "sell_price": 50,
+      "effect": "No effect. Can be traded for prior Level-up moves.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/heart-scale.png"
+    },
+    {
+      "id": 101,
+      "name": "Helix Fossil",
+      "category": "Dex Completion",
+      "buy_price": 7000,
+      "sell_price": 3500,
+      "effect": "Can be revived into an Omanyte.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/helix-fossil.png"
+    },
+    {
+      "id": 397,
+      "name": "HM01",
+      "category": "All Machines",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Teaches Cut to a compatible Pokémon.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png"
+    },
+    {
+      "id": 398,
+      "name": "HM02",
+      "category": "All Machines",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Teaches Fly to a compatible Pokémon.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png"
+    },
+    {
+      "id": 399,
+      "name": "HM03",
+      "category": "All Machines",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Teaches Surf to a compatible Pokémon.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png"
+    },
+    {
+      "id": 400,
+      "name": "HM04",
+      "category": "All Machines",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Teaches Strength to a compatible Pokémon.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png"
+    },
+    {
+      "id": 401,
+      "name": "HM05",
+      "category": "All Machines",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Teaches Waterfall to a compatible Pokémon. (HS: Whirlpool DPP: Defog Gen III & II & I: Flash)",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png"
+    },
+    {
+      "id": 402,
+      "name": "HM06",
+      "category": "All Machines",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Teaches Dive to a compatible Pokémon. (Gen IV & III: Rock Smash Gen II: Whirlpool)",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png"
+    },
+    {
+      "id": 403,
+      "name": "HM07",
+      "category": "All Machines",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Teaches a move to a compatible Pokémon. (Gen IV & III & II: Waterfall)",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png"
+    },
+    {
+      "id": 404,
+      "name": "HM08",
+      "category": "All Machines",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Teaches a move to a compatible Pokémon. (Gen IV: Rock Climb Gen III: Dive)",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hm-normal.png"
+    },
+    {
+      "id": 149,
+      "name": "Hondew Berry",
+      "category": "Effort Drop",
+      "buy_price": 80,
+      "sell_price": 40,
+      "effect": "Drops Special Attack Effort Values by 10 and raises happiness.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hondew-berry.png"
+    },
+    {
+      "id": 45,
+      "name": "HP Up",
+      "category": "Vitamins",
+      "buy_price": 10000,
+      "sell_price": 5000,
+      "effect": "Raises HP effort and happiness.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hp-up.png"
+    },
+    {
+      "id": 25,
+      "name": "Hyper Potion",
+      "category": "Healing",
+      "buy_price": 1500,
+      "sell_price": 750,
+      "effect": "Restores 200 HP.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hyper-potion.png"
+    },
+    {
+      "id": 140,
+      "name": "Iapapa Berry",
+      "category": "Picky Healing",
+      "buy_price": 80,
+      "sell_price": 40,
+      "effect": "Held: Consumed at 1/2 max HP to restore 1/8 max HP. Confuses Pokémon that dislike sour flavor.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/iapapa-berry.png"
+    },
+    {
+      "id": 20,
+      "name": "Ice Heal",
+      "category": "Status Cures",
+      "buy_price": 200,
+      "sell_price": 100,
+      "effect": "Cures freezing.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ice-heal.png"
+    },
+    {
+      "id": 47,
+      "name": "Iron",
+      "category": "Vitamins",
+      "buy_price": 10000,
+      "sell_price": 5000,
+      "effect": "Raises Defense effort and happiness.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/iron.png"
+    },
+    {
+      "id": 147,
+      "name": "Kelpsy Berry",
+      "category": "Effort Drop",
+      "buy_price": 80,
+      "sell_price": 40,
+      "effect": "Drops Attack Effort Values by 10 and raises happiness.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kelpsy-berry.png"
+    },
+    {
+      "id": 198,
+      "name": "King’s Rock",
+      "category": "Held Items",
+      "buy_price": 5000,
+      "sell_price": 2500,
+      "effect": "Held: Damaging moves gain a 10% chance to make their target flinch. Traded on a Poliwhirl: Holder evolves into Politoed. Traded on a Slowpoke: Holder evolves into Slowking.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kings-rock.png"
+    },
+    {
+      "id": 183,
+      "name": "Lansat Berry",
+      "category": "In A Pinch",
+      "buy_price": 80,
+      "sell_price": 40,
+      "effect": "Held: Consumed at 1/4 max HP to boost critical hit ratio by two stages.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lansat-berry.png"
+    },
+    {
+      "id": 42,
+      "name": "Lava Cookie",
+      "category": "Status Cures",
+      "buy_price": 350,
+      "sell_price": 175,
+      "effect": "Cures any status ailment and confusion.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lava-cookie.png"
+    },
+    {
+      "id": 232,
+      "name": "Lax Incense",
+      "category": "Held Items",
+      "buy_price": 5000,
+      "sell_price": 2500,
+      "effect": "Held: Holder’s evasion is increased by 5%. Breeding: Wobbuffet begets a Wynaut Egg.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lax-incense.png"
+    },
+    {
+      "id": 85,
+      "name": "Leaf Stone",
+      "category": "Evolution",
+      "buy_price": 3000,
+      "sell_price": 1500,
+      "effect": "Evolves an Exeggcute into Exeggutor, a Gloom into Vileplume, a Nuzleaf into Shiftry, a Pansage into Simisage, or a Weepinbell into Victreebel.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leaf-stone.png"
+    },
+    {
+      "id": 236,
+      "name": "Leek",
+      "category": "Species Specific",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Raises Farfetch’d’s critical hit ratio by two stages.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/stick.png"
+    },
+    {
+      "id": 211,
+      "name": "Leftovers",
+      "category": "Held Items",
+      "buy_price": 4000,
+      "sell_price": 2000,
+      "effect": "Held: Restores 1/16 (6.25%) holder’s max HP at the end of each turn.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leftovers.png"
+    },
+    {
+      "id": 32,
+      "name": "Lemonade",
+      "category": "Healing",
+      "buy_price": 400,
+      "sell_price": 200,
+      "effect": "Restores 80 HP.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lemonade.png"
+    },
+    {
+      "id": 131,
+      "name": "Leppa Berry",
+      "category": "Medicine",
+      "buy_price": 80,
+      "sell_price": 40,
+      "effect": "Held: Consumed when a move runs out of PP to restore its PP by 10.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leppa-berry.png"
+    },
+    {
+      "id": 533,
+      "name": "Letter",
+      "category": "Plot Advancement",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "A letter to Steven from the Devon Corp president.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/letter.png"
+    },
+    {
+      "id": 178,
+      "name": "Liechi Berry",
+      "category": "In A Pinch",
+      "buy_price": 80,
+      "sell_price": 40,
+      "effect": "Held: Consumed at 1/4 max HP to boost Attack.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/liechi-berry.png"
+    },
+    {
+      "id": 547,
+      "name": "Lift Key",
+      "category": "Plot Advancement",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Operates the elevator in Team Rocket’s Celadon Hideout.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lift-key.png"
+    },
+    {
+      "id": 213,
+      "name": "Light Ball",
+      "category": "Species Specific",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Doubles Pikachu’s Attack and Special Attack. Breed on Pikachu or Raichu: Pichu Egg will have Volt Tackle.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/light-ball.png"
+    },
+    {
+      "id": 208,
+      "name": "Lucky Egg",
+      "category": "Training",
+      "buy_price": 10000,
+      "sell_price": 5000,
+      "effect": "Held: Increases EXP earned in battle by 50%.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lucky-egg.png"
+    },
+    {
+      "id": 233,
+      "name": "Lucky Punch",
+      "category": "Species Specific",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Raises Chansey’s critical hit ratio by two stages.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lucky-punch.png"
+    },
+    {
+      "id": 134,
+      "name": "Lum Berry",
+      "category": "Medicine",
+      "buy_price": 80,
+      "sell_price": 40,
+      "effect": "Held: Consumed to cure any status condition or confusion.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lum-berry.png"
+    },
+    {
+      "id": 11,
+      "name": "Luxury Ball",
+      "category": "Special Balls",
+      "buy_price": 3000,
+      "sell_price": 1500,
+      "effect": "Tries to catch a wild Pokémon.  Caught Pokémon start with 200 happiness.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/luxury-ball.png"
+    },
+    {
+      "id": 527,
+      "name": "Mach Bike",
+      "category": "Gameplay",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Faster than the Acro Bike, and can ride up sandy slopes and across cracked floors.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mach-bike.png"
+    },
+    {
+      "id": 192,
+      "name": "Macho Brace",
+      "category": "Effort Training",
+      "buy_price": 3000,
+      "sell_price": 1500,
+      "effect": "Held: Holder gains double effort values from battles, but has halved Speed in battle.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/macho-brace.png"
+    },
+    {
+      "id": 219,
+      "name": "Magnet",
+      "category": "Type Enhancement",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Held: Electric-Type moves from holder do 20% more damage.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/magnet.png"
+    },
+    {
+      "id": 138,
+      "name": "Mago Berry",
+      "category": "Picky Healing",
+      "buy_price": 80,
+      "sell_price": 40,
+      "effect": "Held: Consumed at 1/2 max HP to restore 1/8 max HP. Confuses Pokémon that dislike sweet flavor.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mago-berry.png"
+    },
+    {
+      "id": 153,
+      "name": "Magost Berry",
+      "category": "Baking Only",
+      "buy_price": 20,
+      "sell_price": 10,
+      "effect": "Used for creating PokéBlocks and Poffins.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/magost-berry.png"
+    },
+    {
+      "id": 1,
+      "name": "Master Ball",
+      "category": "Standard Balls",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Catches a wild Pokémon every time.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/master-ball.png"
+    },
+    {
+      "id": 41,
+      "name": "Max Elixir",
+      "category": "Pp Recovery",
+      "buy_price": 4500,
+      "sell_price": 2250,
+      "effect": "Restores PP to full for each move.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/max-elixir.png"
+    },
+    {
+      "id": 39,
+      "name": "Max Ether",
+      "category": "Pp Recovery",
+      "buy_price": 2000,
+      "sell_price": 1000,
+      "effect": "Restores PP to full for one move.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/max-ether.png"
+    },
+    {
+      "id": 24,
+      "name": "Max Potion",
+      "category": "Healing",
+      "buy_price": 2500,
+      "sell_price": 1250,
+      "effect": "Restores HP to full.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/max-potion.png"
+    },
+    {
+      "id": 77,
+      "name": "Max Repel",
+      "category": "Spelunking",
+      "buy_price": 900,
+      "sell_price": 450,
+      "effect": "For 250 steps, prevents wild encounters of level lower than your party’s lead Pokémon.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/max-repel.png"
+    },
+    {
+      "id": 29,
+      "name": "Max Revive",
+      "category": "Revival",
+      "buy_price": 4000,
+      "sell_price": 2000,
+      "effect": "Revives with full HP.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/max-revive.png"
+    },
+    {
+      "id": 518,
+      "name": "Mech Mail",
+      "category": "All Mail",
+      "buy_price": 50,
+      "sell_price": 25,
+      "effect": "Lets a Trainer write a message and send it via Pokémon trade.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mech-mail.png"
+    },
+    {
+      "id": 196,
+      "name": "Mental Herb",
+      "category": "Held Items",
+      "buy_price": 4000,
+      "sell_price": 2000,
+      "effect": "Held: Consumed to cure infatuation. Gen V: Also removes Taunt, Encore, Torment, Disable, and Cursed Body.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mental-herb.png"
+    },
+    {
+      "id": 210,
+      "name": "Metal Coat",
+      "category": "Type Enhancement",
+      "buy_price": 2000,
+      "sell_price": 1000,
+      "effect": "Held: Steel-Type moves from holder do 20% more damage.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/metal-coat.png"
+    },
+    {
+      "id": 234,
+      "name": "Metal Powder",
+      "category": "Species Specific",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Raises Ditto’s Defense and Special Defense by 50%. The boost is lost after transforming.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/metal-powder.png"
+    },
+    {
+      "id": 537,
+      "name": "Meteorite",
+      "category": "Plot Advancement",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "FL: Deliver to Lostelle’s father. RSE: Trade to Professor Cozmo for TM27 (Return).",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/meteorite.png"
+    },
+    {
+      "id": 216,
+      "name": "Miracle Seed",
+      "category": "Type Enhancement",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Held: Grass-Type moves from holder do 20% more damage.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/miracle-seed.png"
+    },
+    {
+      "id": 33,
+      "name": "Moomoo Milk",
+      "category": "Healing",
+      "buy_price": 600,
+      "sell_price": 300,
+      "effect": "Restores 100 HP.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/moomoo-milk.png"
+    },
+    {
+      "id": 81,
+      "name": "Moon Stone",
+      "category": "Evolution",
+      "buy_price": 3000,
+      "sell_price": 1500,
+      "effect": "Evolves a Clefairy into Clefable, a Jigglypuff into Wigglytuff, a Munna into Musharna, a Nidorina into Nidoqueen, a Nidorino into Nidoking, or a Skitty into Delcatty.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/moon-stone.png"
+    },
+    {
+      "id": 220,
+      "name": "Mystic Water",
+      "category": "Type Enhancement",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Held: Water-Type moves from holder do 20% more damage.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mystic-water.png"
+    },
+    {
+      "id": 556,
+      "name": "MysticTicket",
+      "category": "Event Items",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Allows access to Navel Rock and Lugia or Ho-oh.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mysticticket.png"
+    },
+    {
+      "id": 143,
+      "name": "Nanab Berry",
+      "category": "Baking Only",
+      "buy_price": 200,
+      "sell_price": 100,
+      "effect": "Used for creating PokéBlocks and Poffins.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/nanab-berry.png"
+    },
+    {
+      "id": 8,
+      "name": "Nest Ball",
+      "category": "Special Balls",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Tries to catch a wild Pokémon.  Success rate is 3.9× for level 1 Pokémon, and drops steadily to 1× at level 30.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/nest-ball.png"
+    },
+    {
+      "id": 6,
+      "name": "Net Ball",
+      "category": "Special Balls",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Tries to catch a wild Pokémon.  Success rate is 3× for water and bug Pokémon.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/net-ball.png"
+    },
+    {
+      "id": 223,
+      "name": "Never-Melt Ice",
+      "category": "Type Enhancement",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Held: Ice-Type moves from holder do 20% more damage.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/never-melt-ice.png"
+    },
+    {
+      "id": 155,
+      "name": "Nomel Berry",
+      "category": "Baking Only",
+      "buy_price": 20,
+      "sell_price": 10,
+      "effect": "Used for creating PokéBlocks and Poffins.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/nomel-berry.png"
+    },
+    {
+      "id": 92,
+      "name": "Nugget",
+      "category": "Loot",
+      "buy_price": 10000,
+      "sell_price": 5000,
+      "effect": "Sell for 5000 Pokédollars, or to Ore Collector for 10000 Pokédollars.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/nugget.png"
+    },
+    {
+      "id": 543,
+      "name": "Oak’s Parcel",
+      "category": "Plot Advancement",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Trade to Prof. Oak for a Pokédex.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/oaks-parcel.png"
+    },
+    {
+      "id": 103,
+      "name": "Old Amber",
+      "category": "Dex Completion",
+      "buy_price": 10000,
+      "sell_price": 5000,
+      "effect": "Can be revived into an Aerodactyl.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/old-amber.png"
+    },
+    {
+      "id": 422,
+      "name": "Old Rod",
+      "category": "Gameplay",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Used to catch Pokémon in bodies of water.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/old-rod.png"
+    },
+    {
+      "id": 132,
+      "name": "Oran Berry",
+      "category": "Medicine",
+      "buy_price": 80,
+      "sell_price": 40,
+      "effect": "Held: Consumed at 1/2 max HP to recover 10 HP.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/oran-berry.png"
+    },
+    {
+      "id": 515,
+      "name": "Orange Mail",
+      "category": "All Mail",
+      "buy_price": 50,
+      "sell_price": 25,
+      "effect": "Lets a Trainer write a message and send it via Pokémon trade.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/orange-mail.png"
+    },
+    {
+      "id": 157,
+      "name": "Pamtre Berry",
+      "category": "Baking Only",
+      "buy_price": 20,
+      "sell_price": 10,
+      "effect": "Used for creating PokéBlocks and Poffins.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pamtre-berry.png"
+    },
+    {
+      "id": 22,
+      "name": "Paralyze Heal",
+      "category": "Status Cures",
+      "buy_price": 200,
+      "sell_price": 100,
+      "effect": "Cures paralysis.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/paralyze-heal.png"
+    },
+    {
+      "id": 88,
+      "name": "Pearl",
+      "category": "Loot",
+      "buy_price": 2000,
+      "sell_price": 1000,
+      "effect": "Sell for 700 Pokédollars, or to Ore Collector for 1400 Pokédollars.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pearl.png"
+    },
+    {
+      "id": 128,
+      "name": "Pecha Berry",
+      "category": "Medicine",
+      "buy_price": 80,
+      "sell_price": 40,
+      "effect": "Held: Consumed when poisoned to cure poison.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pecha-berry.png"
+    },
+    {
+      "id": 133,
+      "name": "Persim Berry",
+      "category": "Medicine",
+      "buy_price": 80,
+      "sell_price": 40,
+      "effect": "Held: Consumed when confused to cure confusion.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/persim-berry.png"
+    },
+    {
+      "id": 181,
+      "name": "Petaya Berry",
+      "category": "In A Pinch",
+      "buy_price": 80,
+      "sell_price": 40,
+      "effect": "Held: Consumed at 1/4 max HP to boost Special Attack.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/petaya-berry.png"
+    },
+    {
+      "id": 145,
+      "name": "Pinap Berry",
+      "category": "Baking Only",
+      "buy_price": 200,
+      "sell_price": 100,
+      "effect": "Used for creating PokéBlocks and Poffins.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pinap-berry.png"
+    },
+    {
+      "id": 239,
+      "name": "Pink Scarf",
+      "category": "Scarves",
+      "buy_price": 100,
+      "sell_price": 50,
+      "effect": "Raises the holder’s Cuteness while in a contest.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pink-scarf.png"
+    },
+    {
+      "id": 222,
+      "name": "Poison Barb",
+      "category": "Type Enhancement",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Held: Poison-Type moves from holder do 20% more damage.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poison-barb.png"
+    },
+    {
+      "id": 4,
+      "name": "Poké Ball",
+      "category": "Standard Balls",
+      "buy_price": 200,
+      "sell_price": 100,
+      "effect": "Tries to catch a wild Pokémon.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png"
+    },
+    {
+      "id": 63,
+      "name": "Poké Doll",
+      "category": "Spelunking",
+      "buy_price": 300,
+      "sell_price": 150,
+      "effect": "Ends a wild battle.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-doll.png"
+    },
+    {
+      "id": 544,
+      "name": "Poké Flute",
+      "category": "Plot Advancement",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Use to awaken sleeping Pokémon, including Snorlax on roads.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-flute.png"
+    },
+    {
+      "id": 532,
+      "name": "Pokéblock Case",
+      "category": "Gameplay",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Holds Pokéblocks.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pokeblock-case.png"
+    },
+    {
+      "id": 146,
+      "name": "Pomeg Berry",
+      "category": "Effort Drop",
+      "buy_price": 80,
+      "sell_price": 40,
+      "effect": "Drops HP Effort Values by 10 and raises happiness.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pomeg-berry.png"
+    },
+    {
+      "id": 17,
+      "name": "Potion",
+      "category": "Healing",
+      "buy_price": 200,
+      "sell_price": 100,
+      "effect": "Restores 20 HP.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/potion.png"
+    },
+    {
+      "id": 558,
+      "name": "Powder Jar",
+      "category": "Gameplay",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Stores Berry Powder made using a Berry Crusher.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/powder-jar.png"
+    },
+    {
+      "id": 53,
+      "name": "PP Max",
+      "category": "Vitamins",
+      "buy_price": 10000,
+      "sell_price": 5000,
+      "effect": "Raises a move’s max PP by 60%.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pp-max.png"
+    },
+    {
+      "id": 51,
+      "name": "PP Up",
+      "category": "Vitamins",
+      "buy_price": 10000,
+      "sell_price": 5000,
+      "effect": "Raises a move’s max PP by 20%.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pp-up.png"
+    },
+    {
+      "id": 12,
+      "name": "Premier Ball",
+      "category": "Special Balls",
+      "buy_price": 20,
+      "sell_price": 10,
+      "effect": "Tries to catch a wild Pokémon.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/premier-ball.png"
+    },
+    {
+      "id": 46,
+      "name": "Protein",
+      "category": "Vitamins",
+      "buy_price": 10000,
+      "sell_price": 5000,
+      "effect": "Raises Attack effort and happiness.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/protein.png"
+    },
+    {
+      "id": 148,
+      "name": "Qualot Berry",
+      "category": "Effort Drop",
+      "buy_price": 80,
+      "sell_price": 40,
+      "effect": "Drops Defense Effort Values by 10 and raises happiness.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/qualot-berry.png"
+    },
+    {
+      "id": 194,
+      "name": "Quick Claw",
+      "category": "Held Items",
+      "buy_price": 4000,
+      "sell_price": 2000,
+      "effect": "Held: Holder has a 3/16 (18.75%) chance to move first.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/quick-claw.png"
+    },
+    {
+      "id": 154,
+      "name": "Rabuta Berry",
+      "category": "Baking Only",
+      "buy_price": 20,
+      "sell_price": 10,
+      "effect": "Used for creating PokéBlocks and Poffins.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rabuta-berry.png"
+    },
+    {
+      "id": 554,
+      "name": "Rainbow Pass",
+      "category": "Plot Advancement",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Grants access to all of the Sevii Islands.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rainbow-pass.png"
+    },
+    {
+      "id": 50,
+      "name": "Rare Candy",
+      "category": "Vitamins",
+      "buy_price": 10000,
+      "sell_price": 5000,
+      "effect": "Causes a level-up and raises happiness.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rare-candy.png"
+    },
+    {
+      "id": 129,
+      "name": "Rawst Berry",
+      "category": "Medicine",
+      "buy_price": 80,
+      "sell_price": 40,
+      "effect": "Held: Consumed when burned to cure a burn.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rawst-berry.png"
+    },
+    {
+      "id": 141,
+      "name": "Razz Berry",
+      "category": "Baking Only",
+      "buy_price": 200,
+      "sell_price": 100,
+      "effect": "Used for creating PokéBlocks and Poffins.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/razz-berry.png"
+    },
+    {
+      "id": 67,
+      "name": "Red Flute",
+      "category": "Flutes",
+      "buy_price": 20,
+      "sell_price": 10,
+      "effect": "Cures attraction.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/red-flute.png"
+    },
+    {
+      "id": 467,
+      "name": "Red Orb",
+      "category": "Plot Advancement",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Summons Groudon to the Embedded Tower.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/red-orb.png"
+    },
+    {
+      "id": 237,
+      "name": "Red Scarf",
+      "category": "Scarves",
+      "buy_price": 100,
+      "sell_price": 50,
+      "effect": "Raises the holder’s Coolness while in a contest.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/red-scarf.png"
+    },
+    {
+      "id": 72,
+      "name": "Red Shard",
+      "category": "Collectibles",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "No effect. Can be traded for items or moves.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/red-shard.png"
+    },
+    {
+      "id": 9,
+      "name": "Repeat Ball",
+      "category": "Special Balls",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Tries to catch a wild Pokémon.  Success rate is 3× for previously-caught Pokémon.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/repeat-ball.png"
+    },
+    {
+      "id": 79,
+      "name": "Repel",
+      "category": "Spelunking",
+      "buy_price": 400,
+      "sell_price": 200,
+      "effect": "For 100 steps, prevents wild encounters of level lower than your party’s lead Pokémon.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/repel.png"
+    },
+    {
+      "id": 526,
+      "name": "Retro Mail",
+      "category": "All Mail",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Lets a Trainer write a message and send it via Pokémon trade.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/retro-mail.png"
+    },
+    {
+      "id": 37,
+      "name": "Revival Herb",
+      "category": "Revival",
+      "buy_price": 2800,
+      "sell_price": 1400,
+      "effect": "Revives with full HP, but lowers happiness.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/revival-herb.png"
+    },
+    {
+      "id": 28,
+      "name": "Revive",
+      "category": "Revival",
+      "buy_price": 2000,
+      "sell_price": 1000,
+      "effect": "Revives with half HP.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/revive.png"
+    },
+    {
+      "id": 538,
+      "name": "Rm. 1 Key",
+      "category": "Plot Advancement",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Unlocks room 1 on the Abandoned Ship.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rm-1-key.png"
+    },
+    {
+      "id": 539,
+      "name": "Rm. 2 Key",
+      "category": "Plot Advancement",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Unlocks room 2 on the Abandoned Ship.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rm-2-key.png"
+    },
+    {
+      "id": 540,
+      "name": "Rm. 4 Key",
+      "category": "Plot Advancement",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Unlocks room 4 on the Abandoned Ship.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rm-4-key.png"
+    },
+    {
+      "id": 541,
+      "name": "Rm. 6 Key",
+      "category": "Plot Advancement",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Unlocks room 6 on the Abandoned Ship.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rm-6-key.png"
+    },
+    {
+      "id": 99,
+      "name": "Root Fossil",
+      "category": "Dex Completion",
+      "buy_price": 7000,
+      "sell_price": 3500,
+      "effect": "Can be revived into a Lileep.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/root-fossil.png"
+    },
+    {
+      "id": 559,
+      "name": "Ruby",
+      "category": "Plot Advancement",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Give to Celio with Sapphire to activate Network Machine and get Rainbow Pass.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ruby.png"
+    },
+    {
+      "id": 433,
+      "name": "S.S. Ticket",
+      "category": "Plot Advancement",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Ticket for a ship. (RSE: S.S. Tidal LF: S.S. Anne HG: S.S. Aqua)",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ss-ticket.png"
+    },
+    {
+      "id": 44,
+      "name": "Sacred Ash",
+      "category": "Revival",
+      "buy_price": 50000,
+      "sell_price": 25000,
+      "effect": "Revives all fainted Pokémon with full HP.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sacred-ash.png"
+    },
+    {
+      "id": 5,
+      "name": "Safari Ball",
+      "category": "Standard Balls",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Tries to catch a wild Pokémon in the Great Marsh or Safari Zone.  Success rate is 1.5×.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/safari-ball.png"
+    },
+    {
+      "id": 180,
+      "name": "Salac Berry",
+      "category": "In A Pinch",
+      "buy_price": 80,
+      "sell_price": 40,
+      "effect": "Held: Consumed at 1/4 max HP to boost Speed.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/salac-berry.png"
+    },
+    {
+      "id": 560,
+      "name": "Sapphire",
+      "category": "Plot Advancement",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Give to Celio with Ruby to activate Network Machine and get Rainbow Pass.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sapphire.png"
+    },
+    {
+      "id": 535,
+      "name": "Scanner",
+      "category": "Plot Advancement",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Trade to Captain Stern for a DeepSeaTooth or DeepSeaScale.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/scanner.png"
+    },
+    {
+      "id": 209,
+      "name": "Scope Lens",
+      "category": "Held Items",
+      "buy_price": 4000,
+      "sell_price": 2000,
+      "effect": "Held: Raises the holder’s critical hit ratio by one stage.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/scope-lens.png"
+    },
+    {
+      "id": 231,
+      "name": "Sea Incense",
+      "category": "Type Enhancement",
+      "buy_price": 2000,
+      "sell_price": 1000,
+      "effect": "Held: Water-Type moves from holder do 20% more damage. Breeding: Marill or Azumarill beget an Azurill Egg.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sea-incense.png"
+    },
+    {
+      "id": 445,
+      "name": "Secret Key",
+      "category": "Event Items",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Gen IV: The key to Rotom’s appliance room. Gen III: The key to Cinnabar Gym.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/secret-key.png"
+    },
+    {
+      "id": 522,
+      "name": "Shadow Mail",
+      "category": "All Mail",
+      "buy_price": 50,
+      "sell_price": 25,
+      "effect": "Lets a Trainer write a message and send it via Pokémon trade.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shadow-mail.png"
+    },
+    {
+      "id": 221,
+      "name": "Sharp Beak",
+      "category": "Type Enhancement",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Held: Flying-Type moves from holder do 20% more damage.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sharp-beak.png"
+    },
+    {
+      "id": 230,
+      "name": "Shell Bell",
+      "category": "Held Items",
+      "buy_price": 4000,
+      "sell_price": 2000,
+      "effect": "Held: Holder receives 1/8 of the damage it deals when attacking.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shell-bell.png"
+    },
+    {
+      "id": 70,
+      "name": "Shoal Salt",
+      "category": "Collectibles",
+      "buy_price": 20,
+      "sell_price": 10,
+      "effect": "No effect. Gen III: Trade four and four Shoal Shells for a Shell Bell.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shoal-salt.png"
+    },
+    {
+      "id": 71,
+      "name": "Shoal Shell",
+      "category": "Collectibles",
+      "buy_price": 20,
+      "sell_price": 10,
+      "effect": "No effect. Gen III: Trade four and four Shoal Salts for a Shell Bell.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shoal-shell.png"
+    },
+    {
+      "id": 228,
+      "name": "Silk Scarf",
+      "category": "Type Enhancement",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Held: Normal-Type moves from holder do 20% more damage.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/silk-scarf.png"
+    },
+    {
+      "id": 548,
+      "name": "Silph Scope",
+      "category": "Plot Advancement",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Used to identify the true forms of ghosts in Pokémon Tower.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/silph-scope.png"
+    },
+    {
+      "id": 199,
+      "name": "Silver Powder",
+      "category": "Type Enhancement",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Held: Bug-Type moves from holder do 20% more damage.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/silver-powder.png"
+    },
+    {
+      "id": 135,
+      "name": "Sitrus Berry",
+      "category": "Medicine",
+      "buy_price": 80,
+      "sell_price": 40,
+      "effect": "Held: Consumed at 1/2 max HP to recover 1/4 max HP.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png"
+    },
+    {
+      "id": 205,
+      "name": "Smoke Ball",
+      "category": "Held Items",
+      "buy_price": 4000,
+      "sell_price": 2000,
+      "effect": "Held: Allows the Holder to escape from any wild battle.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/smoke-ball.png"
+    },
+    {
+      "id": 31,
+      "name": "Soda Pop",
+      "category": "Healing",
+      "buy_price": 300,
+      "sell_price": 150,
+      "effect": "Restores 60 HP.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/soda-pop.png"
+    },
+    {
+      "id": 214,
+      "name": "Soft Sand",
+      "category": "Type Enhancement",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Held: Ground-Type moves from holder do 20% more damage.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/soft-sand.png"
+    },
+    {
+      "id": 531,
+      "name": "Soot Sack",
+      "category": "Gameplay",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Stores volcanic ash from Route 113.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/soot-sack.png"
+    },
+    {
+      "id": 195,
+      "name": "Soothe Bell",
+      "category": "Training",
+      "buy_price": 4000,
+      "sell_price": 2000,
+      "effect": "Held: Doubles the happiness earned by the holder.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/soothe-bell.png"
+    },
+    {
+      "id": 202,
+      "name": "Soul Dew",
+      "category": "Species Specific",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Raises Latias and Latios’s Special Attack and Special Defense by 50%.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/soul-dew.png"
+    },
+    {
+      "id": 224,
+      "name": "Spell Tag",
+      "category": "Type Enhancement",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Held: Ghost-Type moves from holder do 20% more damage.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/spell-tag.png"
+    },
+    {
+      "id": 156,
+      "name": "Spelon Berry",
+      "category": "Baking Only",
+      "buy_price": 20,
+      "sell_price": 10,
+      "effect": "Used for creating PokéBlocks and Poffins.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/spelon-berry.png"
+    },
+    {
+      "id": 91,
+      "name": "Star Piece",
+      "category": "Loot",
+      "buy_price": 12000,
+      "sell_price": 6000,
+      "effect": "Platinum: Trade for one of each color Shard. Black and White: Trade for PP Up. Sell for 4900 Pokédollars, or to Ore Collector for 9800 Pokédollars.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/star-piece.png"
+    },
+    {
+      "id": 90,
+      "name": "Stardust",
+      "category": "Loot",
+      "buy_price": 3000,
+      "sell_price": 1500,
+      "effect": "Sell for 1000 Pokédollars, or to Ore Collector for 2000 Pokédollars.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/stardust.png"
+    },
+    {
+      "id": 184,
+      "name": "Starf Berry",
+      "category": "In A Pinch",
+      "buy_price": 80,
+      "sell_price": 40,
+      "effect": "Held: Consumed at 1/4 max HP to boost a random stat by two stages.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/starf-berry.png"
+    },
+    {
+      "id": 440,
+      "name": "Storage Key",
+      "category": "Plot Advancement",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Grants access to the Team Galactic warehouse in Veilstone City.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/storage-key.png"
+    },
+    {
+      "id": 80,
+      "name": "Sun Stone",
+      "category": "Evolution",
+      "buy_price": 3000,
+      "sell_price": 1500,
+      "effect": "Evolves a Cottonee into Whimsicott, a Gloom into Bellossom, a Petilil into Lilligant, or a Sunkern into Sunflora.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sun-stone.png"
+    },
+    {
+      "id": 26,
+      "name": "Super Potion",
+      "category": "Healing",
+      "buy_price": 700,
+      "sell_price": 350,
+      "effect": "Restores 50 HP.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/super-potion.png"
+    },
+    {
+      "id": 76,
+      "name": "Super Repel",
+      "category": "Spelunking",
+      "buy_price": 700,
+      "sell_price": 350,
+      "effect": "For 200 steps, prevents wild encounters of level lower than your party’s lead Pokémon.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/super-repel.png"
+    },
+    {
+      "id": 424,
+      "name": "Super Rod",
+      "category": "Gameplay",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Used to catch Pokémon in bodies of water.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/super-rod.png"
+    },
+    {
+      "id": 151,
+      "name": "Tamato Berry",
+      "category": "Effort Drop",
+      "buy_price": 80,
+      "sell_price": 40,
+      "effect": "Drops Speed Effort Values by 10 and raises happiness.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tamato-berry.png"
+    },
+    {
+      "id": 555,
+      "name": "Tea",
+      "category": "Plot Advancement",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Grants access to Saffron City.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tea.png"
+    },
+    {
+      "id": 552,
+      "name": "Teachy TV",
+      "category": "Gameplay",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Teachers basic trainer advice.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/teachy-tv.png"
+    },
+    {
+      "id": 235,
+      "name": "Thick Club",
+      "category": "Species Specific",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Doubles Cubone or Marowak’s Attack.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/thick-club.png"
+    },
+    {
+      "id": 83,
+      "name": "Thunder Stone",
+      "category": "Evolution",
+      "buy_price": 3000,
+      "sell_price": 1500,
+      "effect": "Evolves an Eelektrik into Eelektross, an Eevee into Jolteon, or a Pikachu into Raichu.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/thunder-stone.png"
+    },
+    {
+      "id": 10,
+      "name": "Timer Ball",
+      "category": "Special Balls",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Tries to catch a wild Pokémon. Success rate increases by 0.1× (Gen V: 0.3×) every turn, to a max of 4×.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/timer-ball.png"
+    },
+    {
+      "id": 86,
+      "name": "Tiny Mushroom",
+      "category": "Loot",
+      "buy_price": 500,
+      "sell_price": 250,
+      "effect": "Fire Red and Leaf Green: Trade two for prior Level-up moves. Sell for 250 Pokédollars, or to Hungry Maid for 500 Pokédollars.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tiny-mushroom.png"
+    },
+    {
+      "id": 550,
+      "name": "TM Case",
+      "category": "Gameplay",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Holds TMs.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-case.png"
+    },
+    {
+      "id": 305,
+      "name": "TM01",
+      "category": "All Machines",
+      "buy_price": 40000,
+      "sell_price": 20000,
+      "effect": "Teaches Hone Claws to a compatible Pokémon. (Gen IV & III: Focus Punch Gen II: DynamicPunch Gen I: Mega Punch)",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 306,
+      "name": "TM02",
+      "category": "All Machines",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Teaches Dragon Claw to a compatible Pokémon. (Gen II: Headbutt Gen I: Razor Wind)",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 307,
+      "name": "TM03",
+      "category": "All Machines",
+      "buy_price": 50000,
+      "sell_price": 25000,
+      "effect": "Teaches Psyshock to a compatible Pokémon. (Gen IV & III: Water Pulse Gen II: Curse Gen I: Swords Dance)",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 308,
+      "name": "TM04",
+      "category": "All Machines",
+      "buy_price": 50000,
+      "sell_price": 25000,
+      "effect": "Teaches Calm Mind to a compatible Pokémon. (Gen II: Rollout Gen I: Whirlwind)",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 309,
+      "name": "TM05",
+      "category": "All Machines",
+      "buy_price": 50000,
+      "sell_price": 25000,
+      "effect": "Teaches Roar to a compatible Pokémon. (Gen I: Mega Kick)",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 310,
+      "name": "TM06",
+      "category": "All Machines",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Teaches Toxic to a compatible Pokémon.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 311,
+      "name": "TM07",
+      "category": "All Machines",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Teaches Hail to a compatible Pokémon. (Gen II: Zap Cannon Gen I: Horn Drill)",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 312,
+      "name": "TM08",
+      "category": "All Machines",
+      "buy_price": 50000,
+      "sell_price": 25000,
+      "effect": "Teaches Bulk Up to a compatible Pokémon. (Gen II: Rock Smash Gen I: Body Slam)",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 313,
+      "name": "TM09",
+      "category": "All Machines",
+      "buy_price": 50000,
+      "sell_price": 25000,
+      "effect": "Teaches Venoshock to a compatible Pokémon. (Gen IV & III: Bullet Seed Gen II: Psych Up Gen I: Take Down)",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 314,
+      "name": "TM10",
+      "category": "All Machines",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Teaches Hidden Power to a compatible Pokémon. (Gen I: Double-Edge)",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 315,
+      "name": "TM11",
+      "category": "All Machines",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Teaches Sunny Day to a compatible Pokémon. (Gen I: BubbleBeam)",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 316,
+      "name": "TM12",
+      "category": "All Machines",
+      "buy_price": 50000,
+      "sell_price": 25000,
+      "effect": "Teaches Taunt to a compatible Pokémon. (Gen II: Sweet Scent Gen I: Water Gun)",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 317,
+      "name": "TM13",
+      "category": "All Machines",
+      "buy_price": 10000,
+      "sell_price": 5000,
+      "effect": "Teaches Ice Beam to a compatible Pokémon. (Gen II: Snore)",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 318,
+      "name": "TM14",
+      "category": "All Machines",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Teaches Blizzard to a compatible Pokémon.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 319,
+      "name": "TM15",
+      "category": "All Machines",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Teaches Hyper Beam to a compatible Pokémon.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 320,
+      "name": "TM16",
+      "category": "All Machines",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Teaches Light Screen to a compatible Pokémon. (Gen II: Icy Wind Gen I: Pay Day)",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 321,
+      "name": "TM17",
+      "category": "All Machines",
+      "buy_price": 10000,
+      "sell_price": 5000,
+      "effect": "Teaches Protect to a compatible Pokémon. (Gen I: Submission)",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 322,
+      "name": "TM18",
+      "category": "All Machines",
+      "buy_price": 10000,
+      "sell_price": 5000,
+      "effect": "Teaches Rain Dance to a compatible Pokémon. (Gen I: Counter)",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 323,
+      "name": "TM19",
+      "category": "All Machines",
+      "buy_price": 10000,
+      "sell_price": 5000,
+      "effect": "Teaches Telekinesis to a compatible Pokémon. (Gen IV & III & II: Giga Drain Gen I: Seismic Toss)",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 324,
+      "name": "TM20",
+      "category": "All Machines",
+      "buy_price": 100000,
+      "sell_price": 50000,
+      "effect": "Teaches Safeguard to a compatible Pokémon. (Gen II: Endure Gen I: Rage)",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 325,
+      "name": "TM21",
+      "category": "All Machines",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Teaches Frustration to a compatible Pokémon. (Gen I: Mega Drain)",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 326,
+      "name": "TM22",
+      "category": "All Machines",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Teaches SolarBeam to a compatible Pokémon.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 327,
+      "name": "TM23",
+      "category": "All Machines",
+      "buy_price": 10000,
+      "sell_price": 5000,
+      "effect": "Teaches Smack Down to a compatible Pokémon. (Gen IV & III & II: Iron Tail Gen I: Dragon Rage)",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 328,
+      "name": "TM24",
+      "category": "All Machines",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Teaches Thunderbolt to a compatible Pokémon. (Gen II: DragonBreath)",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 329,
+      "name": "TM25",
+      "category": "All Machines",
+      "buy_price": 10000,
+      "sell_price": 5000,
+      "effect": "Teaches Thunder to a compatible Pokémon.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 330,
+      "name": "TM26",
+      "category": "All Machines",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Teaches Earthquake to a compatible Pokémon.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 331,
+      "name": "TM27",
+      "category": "All Machines",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Teaches Return to a compatible Pokémon. (Gen I: Fissure)",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 332,
+      "name": "TM28",
+      "category": "All Machines",
+      "buy_price": 100000,
+      "sell_price": 50000,
+      "effect": "Teaches Dig to a compatible Pokémon.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 333,
+      "name": "TM29",
+      "category": "All Machines",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Teaches Psychic to a compatible Pokémon.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 334,
+      "name": "TM30",
+      "category": "All Machines",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Teaches Shadow Ball to a compatible Pokémon. (Gen I: Teleport)",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 335,
+      "name": "TM31",
+      "category": "All Machines",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Teaches Brick Break to a compatible Pokémon. (Gen II: Mud-Slap Gen I: Mimic)",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 336,
+      "name": "TM32",
+      "category": "All Machines",
+      "buy_price": 10000,
+      "sell_price": 5000,
+      "effect": "Teaches Double Team to a compatible Pokémon.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 337,
+      "name": "TM33",
+      "category": "All Machines",
+      "buy_price": 10000,
+      "sell_price": 5000,
+      "effect": "Teaches Reflect to a compatible Pokémon. (Gen II: Ice Punch)",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 338,
+      "name": "TM34",
+      "category": "All Machines",
+      "buy_price": 10000,
+      "sell_price": 5000,
+      "effect": "Teaches Sludge Wave to a compatible Pokémon. (Gen IV & III: Shock Wave Gen II: Swagger Gen I: Bide)",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 339,
+      "name": "TM35",
+      "category": "All Machines",
+      "buy_price": 10000,
+      "sell_price": 5000,
+      "effect": "Teaches Flamethrower to a compatible Pokémon. (Gen II: Sleep Talk Gen I: Metronome)",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 340,
+      "name": "TM36",
+      "category": "All Machines",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Teaches Sludge Bomb to a compatible Pokémon. (Gen I: Selfdestruct)",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 341,
+      "name": "TM37",
+      "category": "All Machines",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Teaches Sandstorm to a compatible Pokémon. (Gen I: Egg Bomb)",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 342,
+      "name": "TM38",
+      "category": "All Machines",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Teaches Fire Blast to a compatible Pokémon.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 343,
+      "name": "TM39",
+      "category": "All Machines",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Teaches Rock Tomb to a compatible Pokémon. (Gen II & I: Swift)",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 344,
+      "name": "TM40",
+      "category": "All Machines",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Teaches Aerial Ace to a compatible Pokémon. (Gen II: Defense Curl Gen I: Skull Bash)",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 345,
+      "name": "TM41",
+      "category": "All Machines",
+      "buy_price": 10000,
+      "sell_price": 5000,
+      "effect": "Teaches Torment to a compatible Pokémon. (Gen II: ThunderPunch Gen I: Softboiled)",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 346,
+      "name": "TM42",
+      "category": "All Machines",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Teaches Facade to a compatible Pokémon. (Gen II & I: Dream Eater)",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 347,
+      "name": "TM43",
+      "category": "All Machines",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Teaches Flame Charge to a compatible Pokémon. (Gen IV & III: Secret Power Gen II: Detect Gen I: Sky Attack)",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 348,
+      "name": "TM44",
+      "category": "All Machines",
+      "buy_price": 100000,
+      "sell_price": 50000,
+      "effect": "Teaches Rest to a compatible Pokémon.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 349,
+      "name": "TM45",
+      "category": "All Machines",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Teaches Attract to a compatible Pokémon. (Gen I: Thunder Wave)",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 350,
+      "name": "TM46",
+      "category": "All Machines",
+      "buy_price": 30000,
+      "sell_price": 15000,
+      "effect": "Teaches Thief to a compatible Pokémon. (Gen I: Psywave)",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 351,
+      "name": "TM47",
+      "category": "All Machines",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Teaches Low Sweep to a compatible Pokémon. (Gen IV & III & II: Steel Wing Gen I: Explosion)",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 352,
+      "name": "TM48",
+      "category": "All Machines",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Teaches Round to a compatible Pokémon. (Gen IV & III: Skill Swap Gen II: Fire Punch Gen I: Rock Slide)",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 353,
+      "name": "TM49",
+      "category": "All Machines",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Teaches Echoed Voice to a compatible Pokémon. (Gen IV & III: Snatch Gen II: Fury Cutter Gen I: Tri Attack)",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 354,
+      "name": "TM50",
+      "category": "All Machines",
+      "buy_price": 10000,
+      "sell_price": 5000,
+      "effect": "Teaches Overheat to a compatible Pokémon. (Gen II: Nightmare Gen I: Substitute)",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png"
+    },
+    {
+      "id": 419,
+      "name": "Town Map",
+      "category": "Gameplay",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Use to see the overworld map.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/town-map.png"
+    },
+    {
+      "id": 553,
+      "name": "Tri-Pass",
+      "category": "Plot Advancement",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Grants access to the first three Sevii Islands.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tri-pass.png"
+    },
+    {
+      "id": 523,
+      "name": "Tropic Mail",
+      "category": "All Mail",
+      "buy_price": 50,
+      "sell_price": 25,
+      "effect": "Lets a Trainer write a message and send it via Pokémon trade.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tropic-mail.png"
+    },
+    {
+      "id": 225,
+      "name": "Twisted Spoon",
+      "category": "Type Enhancement",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Held: Psychic-Type moves from holder do 20% more damage.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/twisted-spoon.png"
+    },
+    {
+      "id": 2,
+      "name": "Ultra Ball",
+      "category": "Standard Balls",
+      "buy_price": 800,
+      "sell_price": 400,
+      "effect": "Tries to catch a wild Pokémon.  Success rate is 2×.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ultra-ball.png"
+    },
+    {
+      "id": 229,
+      "name": "Upgrade",
+      "category": "Evolution",
+      "buy_price": 2000,
+      "sell_price": 1000,
+      "effect": "Traded on a Porygon: Holder evolves into Porygon2.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/up-grade.png"
+    },
+    {
+      "id": 420,
+      "name": "Vs. Seeker",
+      "category": "Gameplay",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Allows rebattling of on-screen trainers. 100 steps to recharge.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/vs-seeker.png"
+    },
+    {
+      "id": 529,
+      "name": "Wailmer Pail",
+      "category": "Gameplay",
+      "buy_price": 0,
+      "sell_price": 0,
+      "effect": "Used to water berries.",
+      "location": "?",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wailmer-pail.png"
+    },
+    {
+      "id": 84,
+      "name": "Water Stone",
+      "category": "Evolution",
+      "buy_price": 3000,
+      "sell_price": 1500,
+      "effect": "Evolves an Eevee into Vaporeon, a Lombre into Ludicolo, a Panpour into Simipour, a Poliwhirl into Poliwrath, a Shellder into Cloyster, or a Staryu into Starmie.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/water-stone.png"
+    },
+    {
+      "id": 158,
+      "name": "Watmel Berry",
+      "category": "Baking Only",
+      "buy_price": 20,
+      "sell_price": 10,
+      "effect": "Used for creating PokéBlocks and Poffins.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/watmel-berry.png"
+    },
+    {
+      "id": 520,
+      "name": "Wave Mail",
+      "category": "All Mail",
+      "buy_price": 50,
+      "sell_price": 25,
+      "effect": "Lets a Trainer write a message and send it via Pokémon trade.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wave-mail.png"
+    },
+    {
+      "id": 144,
+      "name": "Wepear Berry",
+      "category": "Baking Only",
+      "buy_price": 20,
+      "sell_price": 10,
+      "effect": "Used for creating PokéBlocks and Poffins.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wepear-berry.png"
+    },
+    {
+      "id": 69,
+      "name": "White Flute",
+      "category": "Spelunking",
+      "buy_price": 20,
+      "sell_price": 10,
+      "effect": "Doubles the wild Pokémon encounter rate.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/white-flute.png"
+    },
+    {
+      "id": 191,
+      "name": "White Herb",
+      "category": "Held Items",
+      "buy_price": 4000,
+      "sell_price": 2000,
+      "effect": "Held: Resets all lowered stats to normal at end of turn. Consumed after use.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/white-herb.png"
+    },
+    {
+      "id": 137,
+      "name": "Wiki Berry",
+      "category": "Picky Healing",
+      "buy_price": 80,
+      "sell_price": 40,
+      "effect": "Held: Consumed at 1/2 max HP to restore 1/8 max HP. Confuses Pokémon that dislike dry flavor.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wiki-berry.png"
+    },
+    {
+      "id": 519,
+      "name": "Wood Mail",
+      "category": "All Mail",
+      "buy_price": 50,
+      "sell_price": 25,
+      "effect": "Lets a Trainer write a message and send it via Pokémon trade.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wood-mail.png"
+    },
+    {
+      "id": 60,
+      "name": "X Accuracy",
+      "category": "Stat Boosts",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Raises accuracy by one stage in battle.  Raises happiness.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/x-accuracy.png"
+    },
+    {
+      "id": 57,
+      "name": "X Attack",
+      "category": "Stat Boosts",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Raises Attack by one stage in battle.  Raises happiness.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/x-attack.png"
+    },
+    {
+      "id": 58,
+      "name": "X Defense",
+      "category": "Stat Boosts",
+      "buy_price": 2000,
+      "sell_price": 1000,
+      "effect": "Raises Defense by one stage in battle.  Raises happiness.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/x-defense.png"
+    },
+    {
+      "id": 61,
+      "name": "X Sp. Atk",
+      "category": "Stat Boosts",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Raises Special Attack by one stage in battle.  Raises happiness.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/x-sp-atk.png"
+    },
+    {
+      "id": 59,
+      "name": "X Speed",
+      "category": "Stat Boosts",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "Raises Speed by one stage in battle.  Raises happiness.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/x-speed.png"
+    },
+    {
+      "id": 66,
+      "name": "Yellow Flute",
+      "category": "Flutes",
+      "buy_price": 20,
+      "sell_price": 10,
+      "effect": "Cures confusion.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/yellow-flute.png"
+    },
+    {
+      "id": 241,
+      "name": "Yellow Scarf",
+      "category": "Scarves",
+      "buy_price": 100,
+      "sell_price": 50,
+      "effect": "Raises the holder’s Toughness while in a contest.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/yellow-scarf.png"
+    },
+    {
+      "id": 74,
+      "name": "Yellow Shard",
+      "category": "Collectibles",
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": "No effect. Can be traded for items or moves.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/yellow-shard.png"
+    },
+    {
+      "id": 52,
+      "name": "Zinc",
+      "category": "Vitamins",
+      "buy_price": 10000,
+      "sell_price": 5000,
+      "effect": "Raises Special Defense and happiness.",
+      "location": "PokeMart",
+      "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/zinc.png"
+    }
+  ]
+}

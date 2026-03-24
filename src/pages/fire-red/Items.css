@@ -1,0 +1,125 @@
+.items-page {
+  max-width: 1000px;
+}
+
+/* Desktop table */
+.items-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.items-table th {
+  text-align: left;
+  padding: 10px 12px;
+  background-color: #2f39b5;
+  color: white;
+  font-weight: 600;
+  border: 1px solid #252ea0;
+}
+
+.items-table td {
+  padding: 8px 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  vertical-align: middle;
+}
+
+.items-table tbody tr:hover {
+  background-color: rgba(47, 57, 181, 0.05);
+}
+
+.item-sprite-cell {
+  width: 40px;
+  text-align: center;
+}
+
+.item-sprite {
+  width: 32px;
+  height: 32px;
+  image-rendering: pixelated;
+}
+
+.item-name {
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.item-effect {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  max-width: 300px;
+}
+
+/* Highlight animation for search deep-link */
+.item-highlight {
+  animation: item-flash 2s ease-out;
+}
+
+@keyframes item-flash {
+  0% { background-color: rgba(47, 57, 181, 0.25); }
+  100% { background-color: transparent; }
+}
+
+/* Mobile cards - hidden on desktop */
+.items-cards {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .items-table {
+    display: none;
+  }
+
+  .items-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .item-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 12px;
+    background-color: whitesmoke;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+  }
+
+  .item-card-image {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .item-card-image img {
+    width: 32px;
+    height: 32px;
+    image-rendering: pixelated;
+  }
+
+  .item-card-info {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .item-card-name {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 4px;
+  }
+
+  .item-card-row {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    line-height: 1.5;
+  }
+
+  .item-label {
+    font-weight: 600;
+    color: var(--text);
+  }
+}

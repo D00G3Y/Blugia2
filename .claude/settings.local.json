@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:blugia.net)",
+      "Bash(npm create:*)",
+      "Bash(npx:*)",
+      "Bash(mv:*)",
+      "Bash(npm install:*)",
+      "WebFetch(domain:serebii.net)",
+      "WebFetch(domain:pokeapi.co)",
+      "Bash(ls C:/Users/overw/coding/blugia2/*.md)",
+      "WebFetch(domain:supabase.com)",
+      "WebFetch(domain:vite.dev)"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+button,
+input,
+textarea,
+select {
+  outline: none;
+  border: none;
+  background: none;
+  font: inherit;
+  color: inherit;
+}
+
+/* Hide Vite/React error overlays */
+vite-error-overlay {
+  display: none !important;
+}
+
+:root {
+  --bg: white;
+  --surface: darkgrey;
+  --primary: #2f39b5;
+  --secondary: #457b9d;
+  --text: black;
+  --text-muted: black;
+
+  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+}
+
+body {
+  font-family: var(--sans);
+  background-color: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+a {
+  color: var(--secondary);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: var(--primary);
+}

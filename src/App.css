@@ -1,0 +1,613 @@
+/* Header */
+.header {
+  background-color: #808080;
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 2px solid var(--primary);
+  border-top: 5px solid #2f39b5;
+ 
+}
+
+.header-banner {
+  display: block;
+  margin: 0 auto;
+  height: auto;
+}
+
+/* Desktop Nav Bar */
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: silver;
+  border-top: 5px solid #2f39b5;
+}
+
+.main-nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.main-nav-center {
+  display: flex;
+  align-items: center;
+}
+
+.main-nav-center a {
+  display: block;
+  padding: 12px 16px;
+  color: black;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s, color 0.2s;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.main-nav-center a:hover {
+  background-color: #2f39b5;
+  color: white;
+}
+
+.main-nav-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0 16px;
+}
+
+.nav-auth-btn,
+.nav-auth-link {
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  background-color: #2f39b5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.nav-auth-btn:hover,
+.nav-auth-link:hover {
+  background-color: #252ea0;
+}
+
+.profile-icon {
+  display: flex;
+  align-items: center;
+  color: #333;
+  transition: opacity 0.2s;
+}
+
+.profile-icon:hover {
+  opacity: 0.7;
+}
+
+.social-icon {
+  width: 28px;
+  height: 28px;
+  display: block;
+  transition: opacity 0.2s;
+}
+
+.social-icon:hover {
+  opacity: 0.7;
+}
+
+.main-nav-left a {
+  display: block;
+  padding: 12px 24px;
+  background-color: silver;
+  color: black;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s, color 0.2s;
+  border: none;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.main-nav-left a:hover {
+  background-color: #2f39b5;
+  color: white;
+}
+
+.main-nav .search-bar {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  border-left: 1px solid rgba(255, 255, 255, 0.15);
+  background-color: silver;
+}
+
+.main-nav .search-icon {
+  padding: 0 0 0 12px;
+  font-size: 0.9rem;
+  pointer-events: none;
+}
+
+.main-nav .search-bar input {
+  border: none;
+  border-radius: 0;
+  background-color: silver;
+  color: black;
+  padding: 12px 12px 12px 8px;
+}
+
+.main-nav .search-bar input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.main-nav .search-bar input:focus {
+  background-color: silver;
+}
+
+/* Navbar - mobile only */
+.navbar {
+  background-color: var(--surface);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px;
+  position: relative;
+}
+
+/* Menu Toggle Buttons */
+.menu-toggle {
+  background: none;
+  border: none;
+  color: var(--text);
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 10px;
+  transition: color 0.2s;
+}
+
+.menu-toggle:hover {
+  color: var(--primary);
+}
+
+/* Overlay (mobile) */
+.menu-overlay {
+  display: none;
+}
+
+/* Mobile Slide-out Menus */
+.side-menu {
+  position: fixed;
+  top: 0;
+  width: 280px;
+  height: 100vh;
+  background-color: white;
+  z-index: 1000;
+  transition: transform 0.3s ease;
+  padding: 20px;
+  padding-top: 50px;
+  overflow-y: auto;
+  display: none;
+}
+
+.side-menu-left {
+  left: 0;
+  transform: translateX(-100%);
+}
+
+.side-menu-right {
+  right: 0;
+  transform: translateX(100%);
+}
+
+.side-menu.open {
+  transform: translateX(0);
+}
+
+.menu-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: none;
+  border: none;
+  color: #333;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.menu-close:hover {
+  color: var(--primary);
+}
+
+/* ===== Three-Column Content Layout ===== */
+.content-layout {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 250px 1fr 250px;
+}
+
+/* Desktop Panels */
+.desktop-panel {
+  background-color: whitesmoke;
+  padding: 0;
+  overflow-y: auto;
+}
+
+.desktop-panel-left {
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.desktop-panel-right {
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* ===== Panel Content ===== */
+.panel-content {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Category Header (desktop static) */
+.category-header {
+  background-color: #2f39b5;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 12px 16px;
+  border: 1px solid grey;
+}
+
+/* Category Toggle (mobile dropdown) */
+.category-toggle {
+  background-color: #2f39b5;
+  border: 1px solid grey;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 12px 16px;
+  width: 100%;
+  text-align: left;
+  transition: background-color 0.2s;
+}
+
+.category-toggle:hover {
+  background-color: #252ea0;
+}
+
+/* Sub-links on whitesmoke bg with black text */
+.sub-links {
+  list-style: none;
+  padding: 0;
+  background-color: whitesmoke;
+}
+
+.sub-links li {
+  margin-bottom: 0;
+}
+
+.sub-links a {
+  display: block;
+  padding: 10px 16px 10px 24px;
+  color: #000000;
+  font-size: 0.95rem;
+  transition: background-color 0.2s;
+  text-decoration: none;
+}
+
+.sub-links a:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  color: #000000;
+}
+
+.sub-links .sub-sub a {
+  padding-left: 40px;
+  font-size: 0.85rem;
+}
+
+/* ===== Search Bar ===== */
+.search-bar {
+  position: relative;
+}
+
+.search-bar input {
+  display: block;
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 1px solid grey;
+  background-color: #2f39b5;
+  color: #ffffff;
+  outline: none;
+  box-sizing: border-box;
+  transition: background-color 0.2s;
+}
+
+.search-bar input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.search-bar input:focus {
+  background-color: #252ea0;
+}
+
+.search-results {
+  position: absolute;
+  top: 100%;
+  left: 12px;
+  right: 12px;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  overflow: hidden;
+}
+
+.search-result-item {
+  display: block;
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 0.95rem;
+  text-align: left;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text);
+  transition: background-color 0.2s;
+}
+
+.search-result-item:hover {
+  background-color: rgba(47, 57, 181, 0.1);
+  color: var(--primary);
+}
+
+.search-no-results {
+  padding: 10px 12px;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+/* Game Section Header */
+.game-section-header {
+  padding: 10px 16px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-muted);
+  background-color: rgba(0, 0, 0, 0.05);
+  border: 5px solid grey;
+  border-top: none;
+  text-align: center;
+}
+
+/* Nav Blocks */
+.nav-block a {
+  display: block;
+  padding: 12px 16px;
+  background-color: #2f39b5;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s;
+  border: 1px solid grey;
+}
+
+.nav-block a:hover {
+  background-color: #252ea0;
+  color: #ffffff;
+}
+
+/* Mobile nav links (hidden on desktop, shown in mobile right slide-out) */
+.mobile-nav-links {
+  display: none;
+}
+
+.mobile-nav-btn {
+  display: block;
+  width: 100%;
+  padding: 12px 16px;
+  background-color: #2f39b5;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: left;
+  border: 1px solid grey;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.mobile-nav-btn:hover {
+  background-color: #252ea0;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: var(--text);
+}
+
+.hero h2 span {
+  color: var(--primary);
+}
+
+.hero .subtitle {
+  font-size: 1.2rem;
+  color: var(--text-muted);
+  margin-bottom: 40px;
+  max-width: 500px;
+}
+
+.hero .cta {
+  display: inline-block;
+  background-color: var(--primary);
+  color: white;
+  padding: 14px 32px;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.hero .cta:hover {
+  background-color: lightgrey;
+  color: var(--text);
+  transform: translateY(-2px);
+}
+
+/* Footer */
+.footer {
+  background-color: lightgrey;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 24px 20px;
+  text-align: center;
+  
+}
+
+.footer p {
+  color: black;
+  font-size: 1rem;
+}
+
+.footer a {
+  color: var(--secondary);
+}
+
+.footer .social-links {
+  display: none;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 12px;
+}
+
+/* Sitemap link */
+.sitemap-bar {
+  background-color: #333;
+  padding: 12px 20px;
+  text-align: center;
+}
+
+.sitemap-bar a {
+  color: rgba(255, 255, 255, 0.65);
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: color 0.2s;
+}
+
+.sitemap-bar a:hover {
+  color: white;
+}
+
+/* ===== Page Container ===== */
+.page-container {
+  padding: 60px 40px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.page-container h2 {
+  font-size: 2.2rem;
+  color: var(--text);
+  margin-bottom: 16px;
+}
+
+.page-description {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  margin-bottom: 32px;
+  line-height: 1.6;
+}
+
+/* ===== Mobile Responsive ===== */
+@media (max-width: 768px) {
+  .side-menu{
+    background-color: grey;
+  }
+
+  .game-section-header {
+    border-top: 5px silver solid;
+    border-left: 5px silver solid;
+    border-right: 5px darkgray solid;
+     border-bottom: 5px darkgray solid;
+    color: black;
+    background-color: silver;
+  }
+
+  .header{
+    border-top: 5px #252ea0 solid;
+    border-bottom: 5px #252ea0 solid;
+  }
+
+  .header-banner {
+    max-width: 350px;
+  }
+
+  .main-nav {
+    display: none;
+  }
+
+  .footer .social-links {
+    display: flex;
+  }
+
+  .mobile-nav-links {
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  .navbar {
+    display: flex;
+  }
+
+  .desktop-panel {
+    display: none;
+  }
+
+  .content-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .side-menu {
+    display: block;
+  }
+
+  .menu-overlay {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 999;
+  }
+
+  .hero h2 {
+    font-size: 2rem;
+  }
+
+  .hero .subtitle {
+    font-size: 1rem;
+  }
+
+  .hero {
+    padding: 60px 20px;
+  }
+}

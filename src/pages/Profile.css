@@ -1,0 +1,129 @@
+.profile-info {
+  margin-bottom: 32px;
+}
+
+.profile-username {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.profile-bookmarks {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.profile-bookmarks li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  background-color: whitesmoke;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.profile-bookmarks a {
+  color: #2f39b5;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.profile-bookmarks a:hover {
+  text-decoration: underline;
+}
+
+.remove-bookmark-btn {
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  background-color: #c33;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.remove-bookmark-btn:hover {
+  background-color: #a22;
+}
+
+.profile-empty {
+  color: var(--text-muted);
+  font-size: 1rem;
+}
+
+.bookmark-search {
+  position: relative;
+  max-width: 400px;
+}
+
+.bookmark-search input {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.bookmark-search input:focus {
+  border-color: #2f39b5;
+}
+
+.bookmark-search-results {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  max-height: 240px;
+  overflow-y: auto;
+}
+
+.bookmark-search-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.bookmark-search-item:last-child {
+  border-bottom: none;
+}
+
+.bookmark-search-item span {
+  font-size: 0.95rem;
+  color: var(--text);
+}
+
+.bookmark-search-item button {
+  padding: 4px 12px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  background-color: #2f39b5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.bookmark-search-item button:hover {
+  background-color: #252ea0;
+}
+
+.bookmark-search-empty {
+  padding: 10px 12px;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
